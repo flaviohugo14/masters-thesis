@@ -1,0 +1,6 @@
+project:
+  title: "Digitalização Bancária e Assimetrias Regionais no Brasil"
+  execute-dir: project
+  render:
+    - thesis/index.qmd
+    - presentation/

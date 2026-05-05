@@ -1,0 +1,61 @@
+# R session/history
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Renviron
+
+# RStudio
+.Rproj.user/
+
+# renv (track lockfile + activate.R only)
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/staging/
+
+# Quarto / knitr build artifacts
+.quarto/
+*_files/
+*_cache/
+*.utf8.md
+*.knit.md
+**/*.quarto_ipynb
+
+# LaTeX intermediates
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.synctex.gz
+*.lof
+*.lot
+
+# Build outputs (PDFs are generated; track sources)
+thesis/index.pdf
+thesis/index.tex
+presentation/defesa.pdf
+presentation/defesa_files/
+
+# Data — gitignored (large; replicated via R/01_*.R from public sources)
+data/raw/*.xlsx
+data/raw/*.csv
+data/processed/*.csv
+data/cache/*.rds
+
+# Reference PDFs (large)
+docs/pdfs/*.pdf
+
+# OS
+.DS_Store
+*/DS_Store
