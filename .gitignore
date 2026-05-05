@@ -59,3 +59,5 @@ docs/pdfs/*.pdf
 # OS
 .DS_Store
 */DS_Store
+
+/.quarto/
