@@ -50,6 +50,7 @@ presentation/defesa_files/
 # Data — gitignored (large; replicated via R/01_*.R from public sources)
 data/raw/*.xlsx
 data/raw/*.csv
+data/raw/*.geojson
 data/processed/*.csv
 data/cache/*.rds
 

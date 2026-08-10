@@ -6,13 +6,13 @@ advisor: "Prof. Dr. Marco Aurélio Crocco Afonso"
 institution: "UNIVERSIDADE FEDERAL DE MINAS GERAIS"
 city: "Belo Horizonte"
 state: "MG"
-year: "2025"
+year: "2026"
 confirm_text: "Dissertação apresentada ao curso de Mestrado em Economia do Centro de Desenvolvimento e Planejamento Regional da Faculdade de Ciências Econômicas da Universidade Federal de Minas Gerais, como requisito parcial à obtenção do Título de Mestre em Economia."
 keywords: "Centralidade; Sistema Financeiro; Economia Regional e Urbana."
-dedication: " "
-confirm_date: "13/12/2025"
-examiner1: "Giovana Figueiredo Rossi"
-examiner2: "Alexandre de Queiroz Stein"
+dedication: "A quem chegará depois destas páginas, e para quem escrevi sem ainda saber o nome - que o mundo que encontrares seja mais justo do que o que aqui descrevo."
+confirm_date: "10/08/2026"
+examiner1: "Igor Santos Tupy"
+examiner2: "Frederico Gonzaga Jayme Jr"
 advisor-name: "Marco Aurélio Crocco Afonso"
 bibliography: references/ref.bib
 csl: csl/abnt.csl
@@ -38,17 +38,17 @@ nocite: |
 
 # INTRODUÇÃO {.unnumbered}
 
-A literatura sobre economia regional apresenta uma lacuna significativa ao negligenciar o papel da moeda e das variáveis financeiras nos processos de desenvolvimento territorial. Modelos consagrados, sejam neoclássicos, de causação cumulativa ou de insumo-produto, tratam tais variáveis como exógenas, incapazes de explicar as assimetrias regionais [@crocco2006a]. Como destacam Crocco et al. [-@crocco2006a], a moeda e os fluxos monetários têm sido interpretados como resultado das diferenças regionais, e não como seus determinantes. Essa limitação teórica, também apontada por @amado2006, é particularmente relevante no contexto atual de digitalização financeira, processo no qual novas dinâmicas espaciais estão sendo configuradas.
+A literatura sobre economia regional ainda apresenta uma lacuna significativa ao negligenciar o papel da moeda e das variáveis financeiras nos processos de desenvolvimento territorial. Modelos consagrados, sejam neoclássicos, de causação cumulativa ou de insumo-produto, tratam tais variáveis como exógenas, incapazes de explicar as assimetrias regionais [@crocco2006a]. Como destacam Crocco et al. [-@crocco2006a], a moeda e os fluxos monetários têm sido interpretados como resultado das diferenças regionais, e não como seus determinantes. Essa limitação teórica, também apontada por @amado2006, é particularmente relevante no contexto atual de digitalização financeira, processo no qual novas dinâmicas espaciais estão sendo configuradas.
 
 A digitalização do sistema financeiro, frequentemente celebrada como mecanismo democratizante, tem se desenvolvido de forma profundamente assimétrica no Brasil. Enquanto grandes centros urbanos consolidam sua posição como núcleos de operações complexas, municípios periféricos enfrentam um duplo movimento paradoxal: a redução acelerada de agências bancárias físicas e a exclusão digital, que limita o acesso a serviços financeiros essenciais [@nguyen2019; @bacen2023b]. Essa dinâmica não apenas reproduz os padrões históricos de desigualdade espacial identificados por @crocco2012, mas os redefine sob novas lógicas tecnológicas, criando desafios adicionais para o desenvolvimento regional.
 
-A literatura clássica sobre sistema financeiro e desigualdades territoriais demonstra como a concentração bancária reforça hierarquias urbanas [@crocco2006a], mas pouco avançou na compreensão de como a digitalização, ao alterar a natureza mesma do crédito através de algoritmos e plataformas, está reconfigurando essas disparidades. Evidências recentes indicam que a expansão de plataformas digitais não atinge todas as regiões com a mesma intensidade: seus efeitos sobre acesso e desigualdade dependem de patamares prévios de competitividade e infraestrutura digital, de modo que regiões já integradas aos circuitos financeiros formais tendem a se beneficiar mais do que as periféricas [@pang2023; @edo2025]. Paralelamente, a retração de agências físicas em municípios menores fragiliza pequenos negócios e populações vulneráveis que dependem de interações presenciais, com queda persistente do crédito local e sem substituição equivalente por canais digitais [@nguyen2019; @schuster2023].
+A literatura clássica sobre sistema financeiro e desigualdades territoriais demonstra como a concentração bancária reforça hierarquias urbanas [@crocco2006a], mas pouco avançou na compreensão de como a digitalização, ao alterar a natureza do crédito através de algoritmos e plataformas, está reconfigurando essas disparidades. Evidências recentes indicam que a expansão de plataformas digitais não atinge todas as regiões com a mesma intensidade: seus efeitos sobre acesso e desigualdade dependem de patamares prévios de competitividade e infraestrutura digital, de modo que regiões já integradas aos circuitos financeiros formais tendem a se beneficiar mais do que as periféricas [@pang2023; @edo2025]. Paralelamente, a retração de agências físicas em municípios economicamente menos representativos fragiliza pequenos negócios e populações vulneráveis que dependem de interações presenciais, com queda persistente do crédito local e sem substituição equivalente por canais digitais [@nguyen2019; @schuster2023].
 
 Este trabalho busca superar essas lacunas ao investigar como a digitalização do sistema financeiro redefine as desigualdades regionais no Brasil, com foco nas transformações qualitativas no acesso ao crédito. Partindo do referencial teórico que reconhece o papel ativo da moeda no desenvolvimento regional [@crocco2006a; @amado2006], a pesquisa articula três eixos analíticos: i) A reconfiguração espacial das redes bancárias, examinando como a digitalização pode influenciar no fechamento de agências físicas; ii) O viés metropolitano da digitalização, analisando a concentração de serviços financeiros em pólos urbanos já consolidados; iii) Os efeitos assimétricos da concentração geográfica de agências bancárias, analisando a diferença entre centros urbanos e periferias quanto à disponibilidade, diversidade e condições de acesso ao crédito.
 
-Metodologicamente, o estudo combina análise espacial de dados georreferenciados de estatística bancária com estudos de caso comparativos em regiões com distintos níveis de integração ao sistema financeiro. Os resultados esperados contribuem para: Oferecer subsídios para regulamentação do sistema financeiro que mitigue riscos de exclusão territorial; avançar na compreensão da interação entre digitalização e desigualdades regionais; propor estratégias integradas de inclusão digital e financeira.
+Metodologicamente, o estudo combina análise espacial de dados georreferenciados de estatística bancária com estudos de caso comparativos em regiões com distintos níveis de integração ao sistema financeiro. Os resultados esperados contribuem para: (i) oferecer subsídios para regulamentação do sistema financeiro que mitigue riscos de exclusão territorial; (ii) avançar na compreensão da interação entre digitalização e desigualdades regionais; (iii) propor estratégias integradas de inclusão digital e financeira.
 
-Para esse propósito, esta dissertação organiza-se em três capítulos principais, exceto essa introdução. O primeiro realiza uma revisão crítica da literatura sobre centralização financeira, examinando através de quatro eixos analíticos as dimensões espaciais, institucionais e tecnológicas que conformam as hierarquias financeiras e suas assimetrias regionais no Brasil. O segundo capítulo desenvolve a análise empírica, construindo indicadores originais para mensurar os impactos territoriais da digitalização financeira mediante integração de bases de dados e aplicação de técnicas de econometria espacial. Por fim, seguem as considerações finais da proposta.
+Para esse propósito, esta dissertação organiza-se, além desta introdução, em três capítulos principais. O primeiro realiza uma revisão crítica sobre o papel da moeda no desenvolvimento regional e a centralização financeira, examinando através de quatro eixos analíticos as dimensões espaciais, institucionais e tecnológicas que conformam as hierarquias financeiras e suas assimetrias regionais no Brasil. O segundo capítulo constrói a base empírica do trabalho: integra as fontes de dados utilizadas, propõe indicadores originais de preferência pela liquidez, centralidade financeira e qualidade do crédito para os 5.570 municípios brasileiros entre 2009 e 2023, e apresenta a análise exploratória das séries nacionais de digitalização e da geografia bancária. O terceiro capítulo desenvolve a estratégia quasi-experimental de identificação dos impactos territoriais da digitalização, combinando testes de quebra estrutural, diferenças-em-diferenças com tratamento contínuo, econometria espacial e análise de mediação com estudos de caso territoriais e simulações contrafactuais. Por fim, seguem as considerações finais.
 
 Ao articular a tradição crítica brasileira sobre finanças e território [@crocco2010; @paula2013] com debates contemporâneos sobre tecnologia e desigualdade [@edo2025; @pang2023], esta pesquisa não apenas atualiza diagnósticos sobre a geografia financeira nacional, mas também problematiza narrativas não críticas sobre o potencial democratizante da digitalização. Seu recorte empírico, focado nas transformações qualitativas do crédito, revela como inovações tecnológicas podem, paradoxalmente, reforçar dualismos regionais, exigindo intervenções que transcendam a mera expansão de infraestrutura digital.
 
@@ -62,25 +62,25 @@ Este primeiro capítulo faz uma revisão de literatura que se estrutura em quatr
 
 Avança-se, então, para a análise dos impactos regionais da reestruturação bancária (@sec-reestrturacao), examinando como processos de fusões bancárias [@amado2006] e concentração bancária oligopolística [@selmier2016] reconfiguram fluxos de liquidez e acesso ao crédito. Estudos empíricos como Leyshon, French e Signoretta [-@leyshon2008] e Lee e Luca [-@lee2018] revelam padrões assimétricos: ganhos de eficiência em núcleos metropolitanos versus exclusão financeira em periferias urbanas e regionais, problema agravado no Brasil pela retração de agências físicas [@bacen2023b].
 
-A terceira dimensão (@sec-digitalizacao) investiga a dialética da digitalização financeira, onde plataformas digitais prometem inclusão, mas reproduzem hierarquias espaciais [@edo2025; @pang2023]. Evidências do Brasil [@malaquias2020] e de economias emergentes [@guerraleal2021] mostram que a expansão de serviços básicos via canais digitais coexiste com a concentração de funções complexas em hubs metropolitanos, criando formas de marginalização, a "periferia digital".
+A terceira dimensão (@sec-digitalizacao) investiga a dialética da digitalização financeira, onde plataformas digitais prometem inclusão, mas reproduzem hierarquias espaciais [@edo2025; @pang2023]. Evidências do Brasil [@malaquias2020] e de economias emergentes [@guerraleal2021] mostram que a expansão de serviços básicos via canais digitais coexiste com a concentração de funções complexas em *hubs* metropolitanos, criando formas de marginalização, a "periferia digital".
 
 O quarto eixo (@sec-lacunas) sintetiza as lacunas identificadas: (1) escassez de análises integradas que articulem variáveis espaciais (intra e intermunicipais), temporais (trajetórias de longo prazo) e setoriais (serviços básicos vs. complexos); (2) limitações metodológicas na aplicação de econometria espacial; e (3) subexploração dos efeitos diferenciados da digitalização por tipo de serviço financeiro. Conclui-se com as contribuições potenciais desta pesquisa para superar tais lacunas.
 
 ## Teorias sobre Hierarquia Financeira e Desenvolvimento Regional {#sec-hierarchical-theory}
 
-A literatura sobre centralidade econômica e financeira apresenta um arcabouço teórico robusto para compreender a organização espacial dos serviços financeiros e seus impactos regionais. A teoria dos lugares centrais de @christaller1966 fornece a base conceitual inicial, demonstrando como funções especializadas se concentram hierarquicamente em centros urbanos maiores, uma lógica que ajuda a explicar a centralização bancária observada empiricamente. Como evidenciado por Cavalcante, Almeida e Baker [-@cavalcante2016], essa hierarquia opera por meio de um duplo movimento: serviços financeiros complexos (crédito corporativo, gestão de investimentos) concentram-se em núcleos centrais, enquanto serviços básicos (pagamentos, saques) dispersam-se perifericamente, gerando um efeito de centralização-desconcentração que simultaneamente reduz custos locais de transação, mas aprofunda disparidades centro-periferia. @crocco2012 adaptou esse modelo ao contexto brasileiro, revelando como a hierarquia financeira reforça desigualdades regionais ao limitar o acesso ao crédito nas periferias.
+A literatura sobre centralidade econômica e financeira apresenta um arcabouço teórico robusto para compreender a organização espacial dos serviços financeiros e seus impactos regionais. A teoria dos lugares centrais de @christaller1966 fornece a base conceitual inicial, demonstrando como funções especializadas se concentram hierarquicamente em centros urbanos maiores, uma lógica que ajuda a explicar a centralização bancária observada empiricamente. Como evidenciado por Cavalcante, Almeida e Baker [-@cavalcante2016], essa hierarquia opera por meio de um duplo movimento: serviços financeiros complexos (crédito corporativo, gestão de investimentos) concentram-se em núcleos centrais, enquanto serviços básicos (pagamentos, saques) dispersam-se perifericamente, gerando um efeito de centralização-desconcentração que simultaneamente reduz custos locais de transação, mas aprofunda disparidades centro-periferia [@dow1982]. Antes disso, o trabalho de @crocco2012 já adaptara esse modelo ao contexto brasileiro, revelando como a hierarquia financeira reforça desigualdades regionais ao limitar o acesso ao crédito nas periferias.
 
-Contemporaneamente, a financeirização global introduziu novas camadas de complexidade nessa dinâmica espacial. Como argumenta @harvey1982, o capital financeiro não apenas se concentra geograficamente, mas também reconfigura ativamente o espaço através de circuitos especulativos que amplificam assimetrias regionais — leitura cuja dimensão sistêmica encontra eco na análise de @lapavitsas2013 sobre a transformação dos próprios agentes da acumulação capitalista sob financeirização. Essa reconfiguração materializa-se em fenômenos como megaprojetos urbanos [@betancur2014] e aerotrópolis [@kasarda2006], que reestruturam o território segundo a lógica do setor FIRE (Finanças, Seguros e Imóveis), conforme documentado na Região Metropolitana de Belo Horizonte por Cavalcante, Almeida e Baker [-@cavalcante2016]. Essa lógica opera em dois circuitos simultâneos: enquanto atrai investimentos produtivos para centros consolidados (via infraestrutura e serviços especializados), marginaliza municípios menores ao restringir seu acesso a financiamentos de longo prazo, reproduzindo padrões históricos de desenvolvimento desigual.
+Contemporaneamente, a financeirização global introduziu novas camadas de complexidade nessa dinâmica espacial. Como argumenta @harvey1982, o capital financeiro não apenas se concentra geograficamente, mas também reconfigura ativamente o espaço através de circuitos especulativos que amplificam assimetrias regionais — leitura cuja dimensão sistêmica encontra eco na análise de @lapavitsas2013 sobre a transformação dos próprios agentes da acumulação capitalista sob financeirização. Essa reconfiguração materializa-se em fenômenos como megaprojetos urbanos [@betancur2014], que reestruturam o território segundo a lógica do setor FIRE (Finanças, Seguros e Imóveis), conforme documentado na Região Metropolitana de Belo Horizonte por Cavalcante, Almeida e Baker [-@cavalcante2016]. Essa lógica opera em dois circuitos simultâneos: enquanto atrai investimentos produtivos para centros consolidados (via infraestrutura e serviços especializados), marginaliza municípios menores ao restringir seu acesso a financiamentos de longo prazo, reproduzindo padrões históricos de desenvolvimento desigual.
 
 Sob a perspectiva keynesiana e pós-keynesiana, autores como @carvalho1992, Chick e Dow [-@chick1988], e @crocco2010 desenvolvem uma análise mais profunda dos mecanismos monetários que estruturam essas disparidades. Para @keynes1973a, os agentes vivem em uma economia monetária de produção, em que a moeda exerce papel fundamental nas decisões econômicas dos agentes, pois os empresários decidem produzir e contratar fatores de produção com expectativa de ganhar dinheiro com sua produção. Como não há nenhum mecanismo que garanta que a contratação de fatores será totalmente compensada pela venda do produto gerado e, considerando um contexto de incerteza sobre o futuro, os agentes podem optar por não gastar esse ativo, mantendo-o na sua forma líquida.
 
 Dessa forma, em uma economia monetária, o empresário possui interesse no dinheiro que será gerado a partir de suas atividades produtivas. Seu objetivo principal é aumentar sua riqueza de forma geral, ou seja, em sua forma monetária. Ele tomará a decisão de expandir sua produção se acreditar que isso resultará em um aumento de sua renda. A escolha entre oferecer ou não trabalho é, na verdade, uma decisão sobre como utilizar sua riqueza, seja investindo-a na produção ou mantendo-a na forma mais líquida (mantendo em dinheiro). Nesse tipo de economia, o produtor não é guiado pelo volume de produto que espera obter, mas sim pelas oportunidades alternativas de aumentar ou preservar sua riqueza [@keynes1973a].
 
-A digitalização financeira contemporânea introduz uma nova variável nessa equação, reconfigurando, mas não superando as hierarquias espaciais. Hashimoto, Pažitka e Wójcik [-@hashimoto2022] mostram que plataformas digitais ampliam o alcance dos serviços financeiros menos complexos, mas que as operações de maior valor agregado continuam dependendo de provedores nos centros financeiros maiores, padrão consistente com a Teoria do Lugar Central aplicada a serviços financeiros. Essa dualidade cria uma "periferia digital" onde populações em municípios rurais ou de baixa renda ficam excluídas mesmo da bancarização elementar, padrão observado em economias emergentes como o México [@guerraleal2021] e em municípios rurais brasileiros, onde a adoção do canal móvel responde a mediadores cognitivos e institucionais distintos dos centros urbanos [@malaquias2020]. Paradoxalmente, a retração física de agências, justificada pela eficiência digital, intensifica a dependência regional dos centros decisórios, já que algoritmos de crédito centralizados em São Paulo replicam vieses territoriais nas avaliações de risco [@bacen2023b].
+A digitalização financeira contemporânea introduz uma nova variável nessa equação, reconfigurando, mas não superando as hierarquias espaciais. Hashimoto, Pažitka e Wójcik [-@hashimoto2022] mostram que plataformas digitais ampliam o alcance dos serviços financeiros menos complexos, mas que as operações de maior valor agregado continuam dependendo de provedores nos centros financeiros maiores, padrão consistente com a Teoria do Lugar Central aplicada a serviços financeiros. Essa dualidade cria uma "periferia digital" onde populações em municípios rurais ou de baixa renda ficam excluídas mesmo da bancarização elementar, padrão observado em economias emergentes como o México [@guerraleal2021] e em municípios rurais brasileiros, nos quais a adoção do canal móvel responde a mediadores cognitivos e institucionais distintos dos centros urbanos [@malaquias2020]. Paradoxalmente, a retração física de agências, quando justificada pela eficiência digital, intensifica a dependência regional dos centros decisórios, já que algoritmos de crédito centralizados em São Paulo replicam vieses territoriais nas avaliações de risco [@bacen2023b].
 
-Nesse contexto, a concentração financeira em centros urbanos emerge como estratégia estrutural para otimização sistêmica, ancorada em dois pilares inter-relacionados. Por um lado, as economias de aglomeração reduzem custos transacionais através da proximidade física entre instituições complementares (bancos, bolsas, seguradoras), facilitando fluxos informacionais e formação de convenções compartilhadas que mitigam incertezas. Por outro, essa centralização opera como mecanismo de governança da liquidez: bancos em núcleos metropolitanos atuam como "centros de compensação" regionais (à la Christaller), canalizando excedentes periféricos para mercados primários e reprocessando-os como crédito direcionado, frequentemente realocado para próprias regiões geradoras sob condições assimétricas. Esse circuito, embora eficiente do ponto de vista operacional, cristaliza hierarquias espaciais ao concentrar funções decisórias (avaliação de risco, alocação de capital) em polos como São Paulo ou Rio de Janeiro, enquanto municípios periféricos ficam restritos a papéis executivos passivos.
+Nessa lógica, a concentração de serviços financeiros em centros urbanos não é acidental: responde a duas vantagens que se reforçam. A primeira é de custo. Quando bancos, bolsas e seguradoras se instalam próximos uns dos outros, a informação circula mais rápido e os agentes passam a compartilhar convenções sobre o que é um bom risco e um bom negócio, o que reduz a incerteza e barateia cada transação [@parr2000; @chick1988; @wood2005]. A segunda vantagem diz respeito à liquidez. Os bancos das capitais funcionam como centros de compensação regionais, no sentido de @christaller1966: recolhem a poupança gerada nas praças menores e a devolvem na forma de crédito, que muitas vezes retorna à própria região de origem, porém em condições piores [@dow1982; @amado2006; @crocco2010]. O arranjo é eficiente para os bancos, mas endurece a hierarquia entre os territórios. As decisões que definem quem recebe crédito e a que preço, a avaliação de risco e a alocação de capital, ficam em São Paulo e no Rio de Janeiro, enquanto os municípios periféricos apenas executam ordens tomadas longe deles [@sassen2001; @alessandrini2009; @crocco2012].
 
-As implicações dessa arquitetura financeira materializam-se em divergências estruturais entre economias centrais e periféricas, conforme modelizado por @dow1982. Enquanto núcleos metropolitanos beneficiam-se de mercados profundamente líquidos,onde títulos e crédito circulam com baixo custo de transação, e instituições robustas que estabilizam expectativas (reduzindo aversão ao risco), as regiões periféricas enfrentam um triplo constrangimento: (1) vazamentos contínuos de liquidez via repatriação de depósitos para matrizes em centros financeiros; (2) multiplicadores regionais deprimidos devido à intermediação externa de poupança local; e (3) preferência aguda por ativos líquidos por agentes periféricos, decorrente de incerteza institucional e mercados secundários frágeis. Essa assimetria gera um ciclo autoperpetuante: a escassez crônica de crédito produtivo nas periferias inibe investimentos, reduzindo a base tributária e a capacidade de retenção de talentos, o que por sua vez reforça a dependência de centros decisórios externos.
+As implicações dessa arquitetura financeira materializam-se em divergências estruturais entre economias centrais e periféricas, conforme teorizado por @dow1982. Enquanto núcleos metropolitanos beneficiam-se de mercados profundamente líquidos, nos quais títulos e crédito circulam com baixo custo de transação, e instituições robustas que estabilizam expectativas (reduzindo aversão ao risco), as regiões periféricas enfrentam um triplo constrangimento: (1) vazamentos contínuos de liquidez via repatriação de depósitos para matrizes em centros financeiros; (2) multiplicadores regionais deprimidos devido à intermediação externa de poupança local; e (3) preferência aguda por ativos líquidos por agentes periféricos, decorrente de incerteza institucional e mercados secundários frágeis. Essa assimetria gera um ciclo autoperpetuante: a escassez crônica de crédito produtivo nas periferias inibe investimentos, reduzindo a base tributária e a capacidade de retenção de talentos, o que por sua vez reforça a dependência de centros decisórios externos.
 
 Essa assimetria se manifesta claramente no sistema bancário. Como argumenta @amado2006, os bancos, enquanto criadores primários de liquidez, tendem a concentrar suas operações em regiões centrais devido a dois fatores-chave: (1) a perda contínua de reservas das periferias para os centros e (2) a maior demanda por liquidez do público nas regiões periféricas. Esse duplo movimento cria um círculo vicioso onde a restrição creditícia nas periferias limita o investimento e o crescimento regional, enquanto os centros se beneficiam de fluxos financeiros adicionais. A aplicação da Teoria do Lugar Central aos serviços financeiros, como propõem Parr e Budd [-@parr2000], acrescenta uma dimensão espacial crucial a essa análise. Eles demonstram como economias de escala e escopo concentram certos serviços financeiros em centros urbanos específicos, criando uma hierarquia espacial de acesso, padrão empiricamente validado por Cavalcante, Almeida e Baker [-@cavalcante2016] ao mostrarem que bancos em Belo Horizonte seguem vetores de expansão radial a partir do CBD, enquanto postos avançam para eixos periféricos de renda média. @crocco2010 complementa essa visão ao destacar que a centralidade de uma região, determinada por fatores como população, renda e diversidade industrial, influencia diretamente sua atividade bancária.
 
@@ -88,7 +88,7 @@ Estudos empíricos recentes trouxeram contribuições metodológicas importantes
 
 Esse padrão se repete em outras metrópoles brasileiras. Almeida, Amano e Tupy [-@almeida2022] mostram, em cinco capitais, que as elites permanecem ancoradas nos centros tradicionais, ao contrário do que ocorreu nas cidades norte-americanas, onde os núcleos se esvaziaram. A periferia brasileira se reparte em duas frentes: condomínios fechados de alta renda de um lado, bairros populares do outro. Dentro do mesmo município convivem, portanto, áreas com oferta bancária completa e áreas atendidas apenas por correspondentes e pontos de saque.
 
-Essa literatura coletivamente revela um paradoxo: enquanto a concentração financeira em centros urbanos gera eficiências operacionais e reduz riscos para as instituições bancárias, ela simultaneamente cria barreiras de acesso que reproduzem dualidades espaciais, onde periferias urbanas dependem de serviços básicos via postos bancários, sem acesso a crédito produtivo ou instrumentos sofisticados, conforme demonstrado na RMBH [@cavalcante2016]. O desafio político que emerge é como equilibrar as vantagens da aglomeração financeira com a necessidade de inclusão regional, um dilema que permanece central no debate sobre desenvolvimento econômico espacialmente equilibrado.
+Essa literatura coletivamente revela um paradoxo: enquanto a concentração financeira em centros urbanos gera eficiências operacionais e reduz riscos para as instituições bancárias, ela simultaneamente cria barreiras de acesso que reproduzem dualidades espaciais, onde periferias urbanas dependem de serviços básicos via postos bancários, sem acesso a crédito produtivo ou instrumentos sofisticados, conforme demonstrado na RMBH [@cavalcante2016]. O desafio político que emerge é como equilibrar as vantagens da aglomeração financeira com a necessidade de inclusão regional, em especial, para as regiões periféricas, que são as mais dependentes do crédito tradicional, um dilema que permanece central no debate sobre desenvolvimento econômico espacialmente equilibrado.
 
 
 ## Reestruturação Financeira e seus Impactos Regionais {#sec-reestrturacao}
@@ -99,7 +99,9 @@ A literatura empírica tem consistentemente associado essa concentração bancá
 
 Chauvet e Jacolin [-@chauvet2017] complementam a discussão iniciada por Lee e Luca [-@lee2018] ao investigar como a inclusão financeira e a concentração bancária afetam o desempenho das empresas em países em desenvolvimento. Utilizando dados de 55.596 empresas em 79 países, os autores demonstram que a inclusão financeira, medida pela distribuição de crédito entre empresas, tem um impacto positivo no crescimento das firmas, especialmente em mercados bancários menos concentrados, onde a competição entre bancos é maior. O estudo revela que a concentração bancária beneficia principalmente empresas estatais e estrangeiras, enquanto a competição bancária só favorece o crescimento das firmas quando a inclusão financeira já está em níveis elevados. Esses resultados sugerem que a qualidade do sistema financeiro, incluindo sua capacidade de distribuir crédito de forma ampla e eficiente, é tão crucial para o desempenho empresarial quanto o volume total de crédito disponível. A pesquisa destaca a importância de políticas que promovam tanto a inclusão financeira quanto a competição bancária, especialmente em economias com sistemas financeiros menos desenvolvidos, onde a concentração excessiva pode limitar o acesso ao crédito para empresas locais e menores. Esses achados reforçam a ideia de que a geografia financeira e a estrutura dos mercados bancários são fatores determinantes para o desenvolvimento econômico, conectando-se diretamente às preocupações espaciais e institucionais levantadas por Lee e Luca [-@lee2018].
 
-O estudo seminal de Leyshon, French e Signoretta [@leyshon2008] sobre exclusão financeira e fechamento de agências bancárias no Reino Unido oferece uma base analítica para compreender os impactos assimétricos da reestruturação financeira em contextos regionais desfavorecidos. Os autores demonstram como o processo de racionalização de redes bancárias entre 1995-2003 foi desproporcionalmente concentrado em áreas pobres e étnicamente diversas (-25% nas regiões mais deprimidas contra -16,9% em áreas ricas), reforçando desigualdades espaciais preexistentes. Sua análise revela três mecanismos-chave relevantes para o contexto brasileiro: (1) a financeirização como motor da concentração geográfica de serviços (com bancos priorizando agências em mercados "prime"), (2) a substituição tecnológica incompleta (canais digitais não compensam a perda física para populações com baixa mobilidade/alfabetização digital), e (3) a desconsideração política de variáveis locais (o critério de "4 milhas em linha reta" ignora barreiras socioespaciais reais). Esses achados dialogam diretamente com a realidade brasileira documentada por @crocco2012 e @bacen2023b, na qual a digitalização coexiste com a retração de 12% das agências em municípios periféricos. O trabalho destaca ainda a necessidade de métricas espaciais refinadas para capturar efeitos territoriais, lacuna que a presente dissertação aborda por meio de modelos espaciais (SLX-DiD com matriz de contiguidade) e de um índice de exposição financeira municipal construído por análise de componentes principais. A contribuição de @leyshon2008 é particularmente relevante por evidenciar que a exclusão financeira é um fenômeno intrinsecamente geográfico, exigindo políticas que transcendam abordagens universalistas e considerem a heterogeneidade dos territórios.
+O estudo seminal de Leyshon, French e Signoretta [@leyshon2008] sobre exclusão financeira e fechamento de agências bancárias no Reino Unido oferece uma base analítica para compreender os impactos assimétricos da reestruturação financeira em contextos regionais desfavorecidos. Os autores demonstram como o processo de racionalização de redes bancárias entre 1995-2003 foi desproporcionalmente concentrado em áreas pobres e étnicamente diversas (-25% nas regiões mais deprimidas contra -16,9% em áreas ricas), reforçando desigualdades espaciais preexistentes. Sua análise revela três mecanismos-chave relevantes para o contexto brasileiro: (1) a financeirização como motor da concentração geográfica de serviços (com bancos priorizando agências em mercados "prime"), (2) a substituição tecnológica incompleta (canais digitais não compensam a perda física para populações com baixa mobilidade/alfabetização digital), e (3) a desconsideração política de variáveis locais (o critério de "4 milhas em linha reta" ignora barreiras socioespaciais reais).
+
+Esses achados dialogam diretamente com a realidade brasileira documentada por @crocco2012 e @bacen2023b, na qual a digitalização coexiste com a retração de 12% das agências em municípios periféricos. O trabalho destaca ainda a necessidade de métricas espaciais refinadas para capturar efeitos territoriais, lacuna que a presente dissertação aborda por meio de modelos espaciais (SLX-DiD com matriz de contiguidade) e de um índice de exposição financeira municipal construído por análise de componentes principais. A contribuição de @leyshon2008 é particularmente relevante por evidenciar que a exclusão financeira é um fenômeno intrinsecamente geográfico, exigindo políticas que transcendam abordagens universalistas e considerem a heterogeneidade dos territórios.
 
 Evidências causais recentes reforçam que o fechamento de agências tem efeito local persistente e que o canal digital não preenche o vazio deixado. @nguyen2019 explora variação exógena gerada por consolidações pós-fusão em condados norte-americanos e mostra que cada fechamento reduz o crédito anual a pequenas empresas em cerca de US\$ 453 mil, sobre uma base de US\$ 4,7 milhões, com queda que persiste por até seis anos e se dissipa num raio de seis milhas. O efeito é estritamente local: o cliente que perde a agência não encontra substituto à distância, físico ou digital. Bonfim, Nogueira e Ongena [-@bonfim2020] complementam o achado com dados portugueses, mostrando que firmas que precisam migrar de banco depois do fechamento de uma agência pagam taxas mais altas do que firmas que trocam voluntariamente, apesar de apresentarem risco de inadimplência mais baixo. O relacionamento bancário, em outras palavras, não migra junto com o cliente.
 
@@ -114,9 +116,9 @@ No Brasil, Fonseca e Matray [-@fonseca2024] oferecem a evidência empírica mais
 
 ## Digitalização Financeira e Reconfiguração Espacial {#sec-digitalizacao}
 
-A digitalização do sistema financeiro reconfigura as geografias econômicas sem dissolver as hierarquias herdadas. As plataformas prometem eficiência operacional e inclusão, mas a evidência empírica mostra que serviços simples e serviços complexos seguem geografias distintas. Hashimoto, Pažitka e Wójcik [-@hashimoto2022] examinam 16.324 vínculos entre advisers e clientes em operações de mercado de capitais no Visegrád e na Áustria entre 2000 e 2014 e encontram um padrão consistente com a Teoria do Lugar Central aplicada a serviços financeiros: quanto mais complexa e maior a transação, maior a distância espacial entre cliente e provedor. Clientes da Europa Central e Oriental conseguem contratar serviços de mercado de capitais menos complexos junto a provedores locais, mas dependem de provedores globais para as operações mais complexas. A consequência espacial é direta: o canal digital amplia o alcance dos centros financeiros maiores e prolonga a dependência das regiões periféricas em relação a eles, sobretudo nos serviços de maior valor agregado, reatualizando, em chave digital, a divisão espacial do trabalho descrita por @sassen2001.
+A digitalização do sistema financeiro reorganiza a geografia econômica, mas não dissolve as hierarquias que herdou. As plataformas prometem eficiência e inclusão; a evidência empírica, porém, mostra que serviços simples e serviços complexos seguem geografias distintas. Hashimoto, Pažitka e Wójcik [-@hashimoto2022] examinam 16.324 vínculos entre *advisers* (assessores financeiros que intermedeiam operações de mercado de capitais) e seus clientes no Visegrád e na Áustria entre 2000 e 2014, e encontram um padrão coerente com a Teoria do Lugar Central aplicada às finanças: quanto maior e mais complexa a transação, maior a distância entre cliente e provedor. Clientes da Europa Central e Oriental resolvem localmente as operações mais simples, mas recorrem a provedores globais nas mais complexas. O efeito espacial é claro: o canal digital estende o alcance dos grandes centros financeiros e prolonga a dependência das regiões periféricas, sobretudo nos serviços de maior valor agregado. É a divisão espacial do trabalho descrita por @sassen2001, agora em chave digital.
 
-Um corolário importante dessa dinâmica é a resiliência da hierarquia espacial diante de choques externos. Hashimoto e Wójcik [-@hashimoto2021] analisam a distribuição do emprego em serviços financeiros e empresariais (FABS) nas grandes áreas metropolitanas do Grupo Visegrád (Tchéquia, Hungria, Polônia e Eslováquia) ao longo de dois eventos que poderiam ter rearranjado a geografia desses serviços: a adesão à União Europeia, em 2004, e a Crise Financeira Global de 2008. O resultado é contraintuitivo. O crescimento dos FABS não acelerou de forma significativa com a adesão nem desacelerou com a crise, e a configuração interna dos centros financeiros, sobretudo na Polônia, permaneceu estável. Os autores interpretam esse padrão como evidência de que forças centrípetas (aglomeração nas capitais, papel de gateway nacional para o capital estrangeiro) e centrífugas (capacidade crescente de cidades secundárias absorverem funções mais complexas) operam simultaneamente, mas se cancelam parcialmente, sustentando uma hierarquia urbana resiliente. Para a presente pesquisa, esse achado importa porque relativiza expectativas de que choques externos, incluindo a aceleração digital observada após 2020, redesenhem por si só a geografia dos serviços financeiros. Mesmo eventos sistêmicos tendem a ser absorvidos pela estrutura herdada.
+Essa dinâmica tem um desdobramento importante: a hierarquia espacial resiste a choques externos. Hashimoto e Wójcik [-@hashimoto2021] acompanham o emprego em serviços financeiros e empresariais (*financial and business services*, FABS) nas principais áreas metropolitanas do Grupo Visegrád (Tchéquia, Hungria, Polônia e Eslováquia) ao longo de dois eventos capazes de rearranjar essa geografia: a adesão à União Europeia, em 2004, e a Crise Financeira Global de 2008. O resultado surpreende. O emprego em FABS não acelerou com a adesão nem recuou com a crise, e a configuração interna dos centros financeiros, sobretudo na Polônia, ficou estável. Para os autores, forças centrípetas (a aglomeração nas capitais e seu papel de *gateway*, a porta de entrada nacional do capital estrangeiro) e forças centrífugas (a capacidade crescente das cidades secundárias de assumir funções mais complexas) agem ao mesmo tempo e se anulam em parte, o que mantém a hierarquia urbana de pé. O achado importa para esta pesquisa porque modera a expectativa de que choques externos, inclusive a aceleração digital do pós-2020, bastem para redesenhar a geografia dos serviços financeiros. Mesmo eventos sistêmicos tendem a ser absorvidos pela estrutura já existente.
 
 No contexto latino-americano, a redução de agências físicas em municípios menores limita o acesso a serviços financeiros complexos, como crédito empresarial, reforçando dependências regionais [@nguyen2019; @schuster2023]. Essa exclusão é agravada por desigualdades socioespaciais, já que a digitalização pode marginalizar populações com menor conectividade ou alfabetização digital, padrão consistente com a evidência transnacional sobre o limiar não linear da inclusão financeira digital [@pang2023].
 
@@ -163,6 +165,121 @@ Com o grande número de variáveis disponíveis no período pré-choque, fez-se 
 
 Por fim, ressalta-se que todos os indicadores e índices aqui construídos serão avaliados em diferentes pontos do tempo, de forma a permitir a comparação intertemporal e a análise dos efeitos do processo de digitalização financeira sobre a oferta e a distribuição do crédito no território brasileiro.
 
+A Figura \ref{fig-organograma} traz esse caminho inteiro em um só diagrama: das fontes de dados e dos indicadores do Capítulo 2 até as três camadas de análise do Capítulo 3 — a quantitativa, a qualitativa e a normativa. Cada bloco remete a uma das seções adiante, e a cor marca o capítulo correspondente.
+
+```{=latex}
+\begin{figure}[p]
+\centering
+\caption{Organograma dos procedimentos metodológicos da dissertação}
+\label{fig-organograma}
+\begin{adjustbox}{max width=\textwidth, max totalheight=0.86\textheight}
+\begin{tikzpicture}[
+  font=\footnotesize,
+  every node/.style={text=corTexto},
+  banda/.style={rounded corners=6pt, line width=0.9pt, inner sep=9pt,
+                minimum width=15.4cm},
+  titulo/.style={font=\bfseries\small, anchor=north},
+  chip/.style={draw=black!45, fill=white, rounded corners=3pt,
+               align=center, inner sep=4pt, minimum height=7mm, line width=0.5pt},
+  flecha/.style={-{Latex[length=3mm,width=2.4mm]}, line width=1.1pt, black!65},
+]
+
+% ======================= BANDA 1 : FONTES =======================
+\node[titulo] (t1) at (0,0) {\textsc{Cap.\ 2 $\;\cdot\;$ Fontes de dados}};
+\coordinate (o1) at ([yshift=-9mm]t1.south);
+\tikzset{srcchip/.style={chip, minimum height=11mm}}
+\node[srcchip, anchor=east] (f3) at ($(o1)+(-3.5mm,0)$) {Google\\Maps API};
+\node[srcchip, anchor=west] (f4) at ($(o1)+(3.5mm,0)$)  {PIB municipal\\\scriptsize IBGE};
+\node[srcchip, anchor=east] (f2) at ([xshift=-3.5mm]f3.west) {Rel.\ de Agências\\\scriptsize UNICAD/Bacen};
+\node[srcchip, anchor=east] (f1) at ([xshift=-3.5mm]f2.west) {ESTBAN\\\scriptsize Bacen};
+\node[srcchip, anchor=west] (f5) at ([xshift=3.5mm]f4.east) {RAIS};
+\node[srcchip, anchor=west] (f6) at ([xshift=3.5mm]f5.east) {Pesquisas\\FEBRABAN};
+\begin{scope}[on background layer]
+  \node[banda, draw=corCap2b, fill=corCap2, fit=(t1)(f1)(f6)] (B1) {};
+\end{scope}
+
+% ======================= BANDA 2 : PROCESSAMENTO =======================
+\node[titulo, below=7mm of B1.south] (t2)
+     {\textsc{Integração e tratamento (Python)}};
+\node[chip, below=2mm of t2, text width=14.4cm] (p1)
+     {\emph{Web scraping} $\rightarrow$ limpeza e padronização $\rightarrow$
+      georreferenciamento (lat/long) $\rightarrow$
+      união por código IBGE + CNPJ $\rightarrow$ validação};
+\node[chip, below=2mm of p1, text width=14.4cm, fill=corCap2!55] (p2)
+     {\textbf{Base georreferenciada município--ano} \; \scriptsize(disponibilizada na OSF)};
+\begin{scope}[on background layer]
+  \node[banda, draw=corCap2b, fill=corCap2, fit=(t2)(p1)(p2)] (B2) {};
+\end{scope}
+
+% ======================= BANDA 3 : INDICADORES =======================
+\node[titulo, below=7mm of B2.south] (t3)
+     {\textsc{Cap.\ 2 $\;\cdot\;$ Construção dos indicadores}};
+\coordinate (o3) at ([yshift=-2mm]t3.south);
+\node[chip, anchor=north east, text width=6.9cm] (i1) at ([xshift=-2mm]o3)
+     {\textbf{Preferência pela liquidez}\\PLP $\cdot$ PLB};
+\node[chip, anchor=north west, text width=6.9cm] (i2) at ([xshift=2mm]o3)
+     {\textbf{Centralidade (quociente locacional)}\\IRC $\cdot$ IRE $\cdot$ IRF $\cdot$ IRD $\cdot$ IRL $\cdot$ IRR};
+\coordinate (o3b) at ([yshift=-3mm]$(i1.south east)!0.5!(i2.south west)$);
+\node[chip, anchor=north east, text width=6.9cm] (i3) at ([xshift=-2mm]o3b)
+     {\textbf{Concentração (IHH)}\\ICO $\cdot$ ICB};
+\node[chip, anchor=north west, text width=6.9cm] (i4) at ([xshift=2mm]o3b)
+     {\textbf{Digitalização (FEBRABAN)}\\penetração $\cdot$ utilização $\cdot$ composição};
+\begin{scope}[on background layer]
+  \node[banda, draw=corCap2b, fill=corCap2, fit=(t3)(i1)(i2)(i3)(i4)] (B3) {};
+\end{scope}
+
+% ======================= BANDA 4 : QUANTITATIVA =======================
+\node[titulo, below=7mm of B3.south] (t4)
+     {\textsc{Cap.\ 3 $\;\cdot\;$ Camada quantitativa --- identificação \emph{shift-share}}};
+\node[chip, below=2mm of t4, text width=14.4cm, fill=corQuant!45] (q1)
+     {\textbf{1. Datação do choque}\; ($t^\ast = 2020$)\\[1pt]
+      \scriptsize Bai--Perron (BIC) $\cdot$ Quandt--Andrews (sup-Wald) $\cdot$ Chow (datas teóricas)};
+\node[chip, below=3mm of q1, text width=14.4cm, fill=corQuant!45] (q2)
+     {\textbf{2. Exposição ex-ante}\; ($E_i$)\\[1pt]
+      \scriptsize 5 variáveis pré-2013 (ag/PIB, ICB, PLP, $-$IRC, $-\ln$PIB) $\rightarrow$ ACP (PC$_1$)\\
+      \scriptsize grupo ``sem cobertura prévia'' tratado à parte};
+\node[chip, below=3mm of q2, text width=14.4cm, fill=corQuant!45] (q3)
+     {\textbf{3. Modelos de impacto}\; (DiD contínuo, Post $\times E_i$)\\[1pt]
+      \scriptsize Event study $\cdot$ DiD com tratamento contínuo $\cdot$ Heterogeneidade por porte\\
+      \scriptsize SLX-DiD (spillovers, $W$) $\cdot$ Mediação causal (agências) $\cdot$ Reg.\ quantílica $\cdot$ Robustez};
+\begin{scope}[on background layer]
+  \node[banda, draw=corQuantb, fill=corQuant, fit=(t4)(q1)(q2)(q3)] (B4) {};
+\end{scope}
+
+% ======================= BANDA 5 : QUALITATIVA =======================
+\node[titulo, below=7mm of B4.south] (t5)
+     {\textsc{Cap.\ 3 $\;\cdot\;$ Camada qualitativa}};
+\node[chip, below=2mm of t5, text width=14.4cm, fill=corQual!45] (ql1)
+     {\textbf{Estudos de caso territoriais}\\[1pt]
+      \scriptsize Belo Horizonte $\cdot$ Betim $\cdot$ Juiz de Fora $\cdot$ Almenara\\
+      \scriptsize \emph{(selecionados a partir dos resíduos e efeitos heterogêneos da camada quantitativa)}};
+\begin{scope}[on background layer]
+  \node[banda, draw=corQualb, fill=corQual, fit=(t5)(ql1)] (B5) {};
+\end{scope}
+
+% ======================= BANDA 6 : NORMATIVA =======================
+\node[titulo, below=7mm of B5.south] (t6)
+     {\textsc{Cap.\ 3 $\;\cdot\;$ Camada normativa}};
+\node[chip, below=2mm of t6, text width=14.4cm, fill=corNorm!45] (n1)
+     {\textbf{Simulações contrafactuais} $\rightarrow$ \textbf{implicações regulatórias}\\[1pt]
+      \scriptsize redução do fechamento de agências $\cdot$ homogeneização da exposição $\cdot$ piso de cobertura física};
+\begin{scope}[on background layer]
+  \node[banda, draw=corNormb, fill=corNorm, fit=(t6)(n1)] (B6) {};
+\end{scope}
+
+% ======================= FLECHAS (projetadas em x=0) =======================
+\foreach \a/\b in {B1/B2, B2/B3, B3/B4, B4/B5, B5/B6}{
+  \draw[flecha] (\a.south -| 0,0) -- (\b.north -| 0,0);
+}
+
+\end{tikzpicture}
+\end{adjustbox}
+
+\vspace{0.4cm}
+{\footnotesize Fonte: Elaboração própria (2026).}
+\end{figure}
+```
+
 ## Fonte dos dados
 
 Para a realização da análise espacial da atividade bancária nos municípios brasileiros, foi construída uma base de dados integrada, a partir da combinação de diferentes fontes de informação. Esta seção descreve cada uma das fontes utilizadas, os procedimentos de extração e o processo de união das bases, enfatizando os recursos tecnológicos empregados.
@@ -179,7 +296,7 @@ Para contextualizar a distribuição espacial da atividade bancária, foram inco
 
 Para unificar as diferentes fontes, foi desenvolvido um script em Python, que automatiza a extração, o tratamento e a integração dos dados. As principais etapas do processamento incluem:
 
-1. Download e leitura das bases: arquivos mensais da ESTBAN e da Relação de Agências foram baixados com técnicas de *web scraping*.
+1. Download e leitura das bases: arquivos mensais da ESTBAN e da Relação de Agências foram baixados com técnicas de *web scraping* (extração automatizada de dados de sites).
 
 2. Limpeza e padronização: os dados foram tratados para padronizar nomes de municípios, códigos IBGE e formatos de datas.
 
@@ -206,7 +323,7 @@ $DT =$ depósitos totais (incluem depósitos a vista, depósitos de poupança\fo
 
 Quanto maior esse índice, maior é a preferência pela liquidez do público, pois aloca maior parcela de seus recursos em aplicações de maior liquidez.
 
-Para o índice de preferência de liquidez dos bancos (PLB), Crocco et al. (2006) diz que o sistema bancário aloca seus recursos entre ativos de maior ou menor liquidez levando em conta o grau de desenvolvimento da região em que se encontra. Dessa forma, utilizaram a conta de operações de crédito para captar a disposição do banco a emprestar, e a conta de depósitos à vista, que representa a intenção do público bancarizado em manter seus ativos mais líquidos possíveis. O objetivo é medir como os bancos gerenciam seus balancetes e sua preferência pela liquidez, tornando seus ativos mais ou menos líquidos de acordo com as características econômicas da região a que pertencem. Neste trabalho, o $PLB$ foi definido como:
+Para o índice de preferência de liquidez dos bancos (PLB), Crocco et al. (2006) verificaram que o sistema bancário aloca seus recursos entre ativos de maior ou menor liquidez levando em conta o grau de desenvolvimento da região em que se encontra. Dessa forma, utilizaram a conta de operações de crédito para captar a disposição do banco a emprestar, e a conta de depósitos à vista, que representa a intenção do público bancarizado em manter seus ativos mais líquidos possíveis. O objetivo é medir como os bancos gerenciam seus balancetes e sua preferência pela liquidez, tornando seus ativos mais ou menos líquidos de acordo com as características econômicas da região a que pertencem. Neste trabalho, o $PLB$ foi definido como:
 
 \begin{equation}
     PLB = \frac{DV}{OPC}
@@ -334,7 +451,7 @@ O Quadro \ref{tab:metadados-extracao} sintetiza as fontes específicas utilizada
 \begin{longtblr}[
     caption={Metadados da Extração de Dados das Pesquisas FEBRABAN 2013-2024},
     label={tab:metadados-extracao},
-    remark{Fonte}={Adaptado de FEBRABAN (2013;2014;2015;2017;2018;2019;2020;2021;2022;2023;2024).}
+    remark{Fonte}={Adaptado de FEBRABAN (2013 a 2024).}
 ]{
     colspec={Q[4cm, l, m] Q[6cm, l, m] Q[3cm, c, m]},
     columns={halign=l},
@@ -391,7 +508,7 @@ Variável & Fonte & Período \\
 \endgroup
 ```
 
-Conforme evidenciado no Quadro \ref{tab:metadados-extracao}, a maior parte das variáveis foi reconstruída a partir de quatro a seis fontes distintas, cada uma cobrindo um subperíodo específico. As séries de contas habilitadas para Internet Banking e Mobile Banking, por exemplo, foram encadeadas a partir de seis edições (2013, 2015, 2020, 2022, 2023 e 2024), exigindo verificação de consistência nos pontos de junção entre subperíodos consecutivos. Quando os valores reportados em edições distintas para o mesmo ano apresentaram divergências, adotou-se como critério a edição mais recente, sob a premissa de que revisões posteriores incorporam correções metodológicas ou ajustes de cobertura amostral.
+Conforme evidenciado no Quadro \ref{tab:metadados-extracao}, a maior parte das variáveis foi reconstruída a partir de quatro a seis fontes distintas, cada uma cobrindo um subperíodo específico. As séries de contas habilitadas para *Internet Banking* e *Mobile Banking*, por exemplo, foram encadeadas a partir de seis edições (2013, 2015, 2020, 2022, 2023 e 2024), exigindo verificação de consistência nos pontos de junção entre subperíodos consecutivos. Quando os valores reportados em edições distintas para o mesmo ano apresentaram divergências, adotou-se como critério a edição mais recente, sob a premissa de que revisões posteriores incorporam correções metodológicas ou ajustes de cobertura amostral.
 
 Um caso particular refere-se à série de total de contas correntes ativas, para a qual não foram identificadas publicações que cobrissem o subperíodo de 2015 a 2022. Para esses anos, procedeu-se a uma interpolação logística (curva S), método adequado para variáveis de difusão tecnológica que apresentam crescimento inicialmente acelerado seguido de estabilização à medida que se aproximam de um patamar de saturação. Os parâmetros da curva foram estimados com base nos valores observados nos extremos da lacuna: 2014, obtido da edição FEBRABAN (2014, p. 34), e 2023, da edição FEBRABAN (2024, p. 21), bem como na trajetória dos anos anteriores (2009-2014). Os valores interpolados foram validados por confronto com indicadores indiretos, como a razão entre contas digitais e contas totais reportada em edições intermediárias.
 
@@ -431,8 +548,12 @@ tema_abnt <- theme_minimal(base_family = "serif", base_size = 12) +
     legend.title = element_blank(),
     panel.grid.minor = element_blank(),
     axis.title = element_text(size = 11),
-    axis.text = element_text(size = 10)
+    axis.text = element_text(size = 10),
+    plot.caption = element_text(size = 8, hjust = 0, color = "black",
+                                margin = margin(t = 8))
   )
+
+fonte_febraban <- "Fonte: Elaboração própria (2026), adaptado de Febraban (2013 à 2024)."
 ```
 
 #### Penetração dos canais digitais
@@ -461,7 +582,7 @@ ggplot(penetracao, aes(x = Ano, y = Milhoes, color = Serie, linetype = Serie)) +
   scale_y_continuous(labels = label_number(big.mark = ".")) +
   scale_color_manual(values = c("#264653", "#2A9D8F", "#E76F51")) +
   scale_linetype_manual(values = c("solid", "solid", "dashed")) +
-  labs(x = "Ano", y = "Milhões de contas") +
+  labs(x = "Ano", y = "Milhões de contas", caption = fonte_febraban) +
   tema_abnt +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
@@ -496,7 +617,7 @@ ggplot(transacoes, aes(x = Ano, y = Bilhoes, color = Serie, linetype = Serie)) +
   scale_y_continuous(labels = label_number(big.mark = ".")) +
   scale_color_manual(values = c("#264653", "#2A9D8F", "#E76F51")) +
   scale_linetype_manual(values = c("solid", "solid", "dashed")) +
-  labs(x = "Ano", y = "Bilhões de transações") +
+  labs(x = "Ano", y = "Bilhões de transações", caption = fonte_febraban) +
   tema_abnt +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
@@ -547,7 +668,8 @@ participacao |>
     family = "serif"
   ) +
   scale_fill_manual(values = c("#264653", "#E76F51", "#2A9D8F")) +
-  labs(x = "Ano", y = "Participação no total de transações", fill = "Canal") +
+  labs(x = "Ano", y = "Participação no total de transações", fill = "Canal",
+       caption = fonte_febraban) +
   tema_abnt +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
@@ -578,16 +700,14 @@ ggplot(mov_fin, aes(x = Ano, y = Bilhoes, fill = Canal)) +
   scale_x_continuous(breaks = 2009:2024) +
   scale_y_continuous(labels = label_number(big.mark = ".")) +
   scale_fill_manual(values = c("#2A9D8F", "#E76F51")) +
-  labs(x = "Ano", y = "Bilhões de transações") +
+  labs(x = "Ano", y = "Bilhões de transações", caption = fonte_febraban) +
   tema_abnt +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
 A distinção entre transações consultivas (consultas de saldo, extratos) e transações com movimentação financeira efetiva (transferências, pagamentos, investimentos) constitui um indicador relevante da profundidade da digitalização, pois revela em que medida os canais digitais são utilizados para operações que de fato alteram posições patrimoniais. A @fig-movfin apresenta a evolução das transações com movimentação financeira por canal.
 
-Observa-se que as transações com movimentação financeira em Mobile Banking eram praticamente nulas até 2013 e atingiram 31,2 bilhões em 2024, superando amplamente o Internet Banking (3,3 bilhões) nesse mesmo ano. Esse dado é particularmente relevante para a presente pesquisa, pois indica que a migração para o canal móvel não se limitou a operações de baixa complexidade, houve uma progressiva incorporação de transações com efetiva transferência de recursos.
-
-Contudo, a proporção de transações com movimentação financeira sobre o total de transações em cada canal revela nuances importantes.
+Observa-se que as transações com movimentação financeira em Mobile Banking eram praticamente nulas até 2013 e atingiram 31,2 bilhões em 2024, superando amplamente o Internet Banking (3,3 bilhões) nesse mesmo ano. Esse dado é particularmente relevante para a presente pesquisa, pois indica que a migração para o canal móvel não se limitou a operações de baixa complexidade, houve uma progressiva incorporação de transações com efetiva transferência de recursos. Contudo, a proporção de transações com movimentação financeira sobre o total de transações em cada canal revela nuances importantes.
 
 ```{r}
 #| label: fig-pctfin
@@ -618,7 +738,8 @@ ggplot(pct_fin |> filter(!is.na(Percentual)),
   scale_y_continuous(labels = function(x) paste0(x, "%"), limits = c(0, NA)) +
   scale_color_manual(values = c("#2A9D8F", "#E76F51")) +
   scale_linetype_manual(values = c("solid", "dashed")) +
-  labs(x = "Ano", y = "Transações com movimentação financeira (%)") +
+  labs(x = "Ano", y = "Transações com movimentação financeira (%)",
+       caption = fonte_febraban) +
   tema_abnt +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
@@ -744,6 +865,127 @@ ggplot(ag_porte, aes(x = ano, y = indice, color = faixa_pib, linetype = faixa_pi
 ```
 
 A @fig-agencias-porte desagrega a evolução da rede de agências segundo o porte econômico dos municípios, medido pelo PIB real de 2009 (R$ 1.000 de 2022). A classificação em quatro faixas --- até 100 mil, 100 mil a 500 mil, 500 mil a 2 milhões e acima de 2 milhões --- permite identificar trajetórias divergentes. Municípios de menor porte tendem a apresentar retração mais acentuada da rede física, enquanto os grandes centros urbanos sustentam ou até expandem seu estoque de agências. Esse padrão é consistente com a tese do "viés metropolitano" da reestruturação bancária [@lee2018], segundo a qual as decisões de fechamento de agências privilegiam a manutenção de pontos em localidades com maior escala transacional e rentabilidade, ampliando a distância funcional entre centros e periferias [@alessandrini2009].
+
+#### A geografia bancária brasileira {#sec-geografia-bancaria}
+
+As duas figuras anteriores mostram *quanto* a rede física encolheu e *em que estratos de porte* a retração se concentrou. Falta o *onde*, que é a pergunta territorial desta pesquisa. A @fig-mapa-brasil junta as duas informações no mesmo plano: a cor de cada município é o Índice Regional de Crédito (IRC) em 2022, e os círculos, plotados no centroide municipal, são o estoque de agências no mesmo ano.
+
+```{r}
+#| label: setup-mapas
+#| echo: false
+#| message: false
+#| warning: false
+
+# Malhas municipais e estaduais do IBGE pré-processadas em R/05_mapas.R
+# (polígonos em formato longo, sem dependência de sf/GDAL).
+mapas <- readRDS("data/cache/mapas.rds")
+
+pal_mapa    <- c("#F4E2C5", "#E9C46A", "#7FBFB5", "#2A9D8F", "#264653")
+cor_agencia <- "#7F1D1D"
+fonte_mapa  <- paste("Fonte: elaboração própria a partir da ESTBAN/BCB, do PIB",
+                     "municipal do IBGE e da malha municipal digital do IBGE.")
+
+tema_mapa <- tema_abnt +
+  theme(
+    axis.title        = element_blank(),
+    axis.text         = element_blank(),
+    panel.grid        = element_blank(),
+    legend.position   = "right",
+    legend.title      = element_text(size = 8.5),
+    legend.text       = element_text(size = 7.5),
+    legend.key.height = unit(0.38, "cm"),
+    legend.key.width  = unit(0.38, "cm"),
+    plot.caption      = element_text(size = 8, hjust = 0)
+  )
+
+# Classifica um indicador nos quintis da distribuição dos municípios válidos.
+# Municípios sem valor (sem agência, sem cobertura prévia) formam categoria própria.
+quintis_mapa <- function(x, valido, rotulo_na = "Sem agência", digitos = 2) {
+  br  <- unique(quantile(x[valido & is.finite(x)], seq(0, 1, 0.2), na.rm = TRUE))
+  k   <- length(br) - 1
+  cl  <- cut(x, breaks = br, include.lowest = TRUE, labels = FALSE)
+  num <- function(v) formatC(v, format = "f", digits = digitos, decimal.mark = ",")
+  rot <- paste(num(br[-(k + 1)]), "a", num(br[-1]))
+  rot[1] <- paste("<", num(br[2]))
+  rot[k] <- paste(">", num(br[k]))
+  factor(ifelse(is.na(cl), rotulo_na, rot[cl]), levels = c(rot, rotulo_na))
+}
+
+escala_fill_mapa <- function(f, titulo) {
+  scale_fill_manual(values = c(pal_mapa[seq_len(nlevels(f) - 1)], "grey85"),
+                    name = titulo, na.value = "grey85", drop = FALSE)
+}
+
+faixas_agencias <- function(n) {
+  cut(n, c(0, 2, 5, 20, 100, Inf),
+      labels = c("1–2", "3–5", "6–20", "21–100", "> 100"))
+}
+
+rosa_dos_ventos <- function(x, y, h) {
+  list(
+    annotate("segment", x = x, xend = x, y = y, yend = y + h, linewidth = 0.35,
+             arrow = arrow(length = unit(0.16, "cm"), type = "closed")),
+    annotate("text", x = x, y = y + h, label = "N", family = "serif",
+             size = 2.6, vjust = -0.35)
+  )
+}
+
+barra_escala <- function(x, y, km, lat_ref) {
+  d <- km / (111.32 * cos(lat_ref * pi / 180))
+  list(
+    annotate("segment", x = x, xend = x + d, y = y, yend = y, linewidth = 0.6),
+    annotate("text", x = x + d / 2, y = y, label = paste0(km, " km"),
+             family = "serif", size = 2.4, vjust = -0.6)
+  )
+}
+```
+
+```{r}
+#| label: fig-mapa-brasil
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: "Geografia bancária brasileira em 2022: Índice Regional de Crédito (IRC) por município e distribuição do estoque de agências"
+#| fig-width: 7
+#| fig-height: 6
+
+mapa_br <- ind |>
+  filter(ano == 2022) |>
+  mutate(
+    com_agencia = n_agencias > 0,
+    IRC_mapa    = ifelse(com_agencia, IRC, NA_real_)
+  )
+mapa_br$classe <- quintis_mapa(mapa_br$IRC_mapa, mapa_br$com_agencia)
+
+poly_br <- mapas$mun |>
+  left_join(mapa_br |> select(cod_mun_ibge, classe), by = "cod_mun_ibge")
+
+pts_br <- mapas$cent |>
+  inner_join(
+    mapa_br |> filter(com_agencia) |>
+      transmute(cod_mun_ibge, faixa = faixas_agencias(n_agencias)),
+    by = "cod_mun_ibge"
+  ) |>
+  arrange(faixa)
+
+ggplot() +
+  geom_polygon(data = poly_br, aes(long, lat, group = grp, fill = classe)) +
+  geom_polygon(data = mapas$uf, aes(long, lat, group = grp),
+               fill = NA, colour = "white", linewidth = 0.2) +
+  geom_point(data = pts_br, aes(long, lat, size = faixa),
+             colour = cor_agencia, alpha = 0.5, stroke = 0) +
+  escala_fill_mapa(mapa_br$classe, "IRC (quintis)") +
+  scale_size_manual(values = c(0.25, 0.5, 0.9, 1.7, 3), name = "Agências") +
+  guides(fill = guide_legend(order = 1),
+         size = guide_legend(order = 2, override.aes = list(alpha = 0.7))) +
+  rosa_dos_ventos(-36, -31.5, 1.4) +
+  barra_escala(-70, -32.5, 500, -32.5) +
+  coord_quickmap() +
+  labs(caption = fonte_mapa) +
+  tema_mapa
+```
+
+Em 2022, 2.440 dos 5.570 municípios brasileiros (43,8%) não tinham nenhuma agência bancária, contra 2.116 em 2009. As manchas cinzas do mapa não se distribuem ao acaso: no Nordeste, 59,8% dos municípios estavam nessa condição; no Norte, 40,7%; no Sul, 36,0%; no Sudeste, 33,6%. Os círculos mostram a concentração no outro extremo da distribuição. Apenas 14 municípios reuniam cem ou mais agências, e os dez maiores da rede (São Paulo, Rio de Janeiro, Belo Horizonte, Porto Alegre, Curitiba, Brasília, Salvador, Campinas, Goiânia e Fortaleza) respondiam por 25,8% do estoque nacional e por 54,5% do saldo de operações de crédito. Na outra ponta, 1.660 municípios eram atendidos por uma ou duas agências. A cor acrescenta o terceiro dado: só 10,5% dos municípios com presença bancária tinham $IRC > 1$, isto é, participação no crédito nacional acima da sua participação no produto. A maior parte do território recebe menos crédito do que aquilo que produz, e o excedente se acumula nos poucos nós metropolitanos onde a rede física continua densa. É o padrão de centro e periferia que o Capítulo 1 formula em termos teóricos e que o Capítulo 3 submete a teste causal [@crocco2006a; @tupy2018].
 
 #### Perfil da intermediação creditícia
 
@@ -889,11 +1131,11 @@ A @fig-concentracao apresenta a evolução dos índices de concentração de ope
 
 ## Introdução
 
-Os Capítulos 1 e 2 entregaram, respectivamente, o referencial teórico pós-keynesiano sobre hierarquia financeira e a base empírica de indicadores municipais e nacionais usados nesta dissertação. A análise descritiva da seção anterior trouxe à tona três fatos estilizados que organizam o problema empírico deste capítulo: (i) o Mobile Banking substitui o Internet Banking a partir de 2015–2016; (ii) o uso de transações móveis dispara a partir de 2020, com a pandemia de COVID-19; e (iii) mesmo com mais canais digitais disponíveis, persiste um padrão de exclusão financeira qualitativa nas periferias. Resta a pergunta central da pesquisa: em que medida a digitalização do sistema bancário, ao mudar a geografia da prestação de serviços financeiros, redefine, atenua ou aprofunda as desigualdades regionais brasileiras?
+Os Capítulos 1 e 2 entregaram, respectivamente, o referencial teórico pós-keynesiano sobre hierarquia financeira e a base empírica de indicadores municipais e nacionais usados neste trabalho. A análise descritiva da seção anterior trouxe à tona três fatos estilizados que organizam o problema empírico deste capítulo: (i) o Mobile Banking substitui o Internet Banking a partir de 2015–2016; (ii) o uso de transações móveis dispara a partir de 2020, com a pandemia de COVID-19; e (iii) mesmo com mais canais digitais disponíveis, persiste um padrão de exclusão financeira qualitativa nas periferias. Resta a pergunta central da pesquisa: em que medida a digitalização do sistema bancário, ao mudar a geografia da prestação de serviços financeiros, redefine, atenua ou aprofunda as desigualdades regionais brasileiras?
 
-Responder a essa pergunta exige passar da descrição para uma estratégia de identificação capaz de isolar o efeito causal da digitalização sobre indicadores territoriais. O obstáculo prático aqui é específico. A única fonte sistemática sobre intensidade de digitalização bancária no Brasil, as Pesquisas FEBRABAN, é nacional e não tem desagregação regional. Existe, portanto, variação temporal, mas não espacial, no tratamento. Estratégias clássicas de painel com tratamento heterogêneo ficam, assim, descartadas. O contorno adotado é uma estratégia *shift-share* à la Bartik: a intensidade nacional do choque digital é multiplicada por medidas de exposição ex-ante de cada município, proxies da dependência inicial dos canais físicos e da capacidade local de absorver o canal digital. Essa abordagem, hoje consolidada na literatura aplicada de identificação causal [@borusyak2024], transforma a uniformidade espacial do tratamento em vantagem analítica. Ela permite datar a transformação, identificar quem foi mais atingido e medir o tamanho dos efeitos diferenciais.
+Responder a essa pergunta exige passar da descrição para uma estratégia de identificação capaz de isolar o efeito causal da digitalização sobre indicadores territoriais. O obstáculo prático aqui é específico. A única fonte sistemática sobre intensidade de digitalização bancária no Brasil, as Pesquisas FEBRABAN, é nacional e não tem desagregação regional. Existe, portanto, variação temporal, mas não espacial, no tratamento. Estratégias clássicas de painel com tratamento heterogêneo ficam, assim, descartadas. O contorno adotado é uma estratégia *shift-share* à la Bartik: a intensidade nacional do choque digital é multiplicada por medidas de exposição *ex-ante* de cada município, proxies da dependência inicial dos canais físicos e da capacidade local de absorver o canal digital. Essa abordagem, hoje consolidada na literatura aplicada de identificação causal [@borusyak2024], transforma a uniformidade espacial do tratamento em vantagem analítica. Ela permite datar a transformação, identificar quem foi mais atingido e medir o tamanho dos efeitos diferenciais.
 
-Este capítulo organiza-se em torno de cinco hipóteses, derivadas dos três eixos analíticos enunciados na introdução desta dissertação:
+Este capítulo organiza-se em torno de cinco hipóteses, derivadas dos três eixos analíticos enunciados na introdução deste trabalho:
 
 - H1. Existe uma quebra estrutural empiricamente identificável na intensidade de digitalização bancária no período 2015–2020, com impacto detectável sobre indicadores municipais.
 - H2. O efeito da digitalização sobre o fechamento de agências físicas é maior em municípios com alta dependência inicial de canais físicos e baixa centralidade financeira (Eixo i).
@@ -901,7 +1143,7 @@ Este capítulo organiza-se em torno de cinco hipóteses, derivadas dos três eix
 - H4. A digitalização tem efeito assimétrico sobre a *qualidade* do crédito: serviços básicos (empréstimos de curto prazo) tornam-se mais acessíveis em periferias, enquanto serviços complexos (financiamentos de longo prazo) concentram-se ainda mais nos centros (Eixo iii).
 - H5. Parte substancial do efeito da digitalização sobre o crédito periférico opera *através* do fechamento de agências físicas, canal de mediação entre tecnologia e território.
 
-O capítulo se organiza em três camadas. A primeira é quantitativa: data o choque digital (@sec-datacao), constrói uma medida sintética de exposição ex-ante (@sec-exposicao) e estima diferenças-em-diferenças com tratamento contínuo, modelos espaciais com defasagem dos regressores (SLX-DiD) e análise de mediação causal (@sec-modelos). A segunda é qualitativa: ancora os achados em quatro estudos de caso territoriais escolhidos a partir dos resíduos e efeitos heterogêneos da camada anterior (@sec-casos). A terceira é normativa: traduz os coeficientes em simulações contrafactuais e recomendações regulatórias (@sec-contrafactuais). A combinação das três camadas operacionaliza o compromisso, já anunciado na introdução da dissertação, de aliar análise espacial de dados georreferenciados a estudos de caso comparativos em regiões com diferentes graus de integração ao sistema financeiro.
+Retomando o organograma da Figura \ref{fig-organograma}, o capítulo se organiza em três camadas. A primeira é quantitativa: data o choque digital (@sec-datacao), constrói uma medida sintética de exposição *ex-ante* (@sec-exposicao) e estima diferenças-em-diferenças com tratamento contínuo, modelos espaciais com defasagem dos regressores (SLX-DiD) e análise de mediação causal (@sec-modelos). A segunda é qualitativa: ancora os achados em quatro estudos de caso territoriais escolhidos a partir dos resíduos e efeitos heterogêneos da camada anterior (@sec-casos). A terceira é normativa: traduz os coeficientes em simulações contrafactuais e recomendações regulatórias (@sec-contrafactuais). A combinação das três camadas operacionaliza o compromisso, já anunciado na introdução deste trabalho, de aliar análise espacial de dados georreferenciados a estudos de caso comparativos em regiões com diferentes graus de integração ao sistema financeiro.
 
 ## Datação do choque digital {#sec-datacao}
 
@@ -909,7 +1151,7 @@ Antes de comparar indicadores antes e depois de um choque, é preciso saber quan
 
 Combinam-se três procedimentos. O primeiro é o teste de Bai e Perron [@bai2003], que estima endogenamente até $m$ pontos de quebra em uma série temporal e seleciona o número ótimo pelo critério bayesiano de informação (BIC). A escolha dos regimes fica a cargo dos dados, não da inspeção visual. O segundo é o teste sup-Wald de Quandt-Andrews [@andrews1993], que avalia a hipótese de uma única quebra com data desconhecida e devolve uma estatística-resumo para a quebra dominante da série. O terceiro é o teste de Chow aplicado a datas com motivação teórica: 2015 (Mobile Banking ultrapassa Internet Banking), março de 2020 (decreto de pandemia) e novembro de 2020 (lançamento do Pix). Esse último confronta as datas escolhidas endogenamente com marcos institucionais conhecidos. Usar os três em conjunto reduz o risco de a datação refletir apenas peculiaridades amostrais ou de uma única série.
 
-Os testes são aplicados a sete séries derivadas dos dados FEBRABAN, organizadas nas três dimensões discutidas no Capítulo 2: (i) penetração (taxas de habilitação de IB e MB sobre o total de contas ativas), (ii) utilização (transações totais e transações móveis per capita) e (iii) composição (participação do MB no total de transações e proporção de transações com movimentação financeira efetiva no MB). A redundância parcial entre as séries é proposital. Se dimensões distintas apontarem para a mesma data, a inferência sobre $t^\ast$ ganha robustez. Se divergirem, o sinal é de que a digitalização é um processo multidimensional, com inflexões próprias em cada vetor, o que abre espaço para a especificação *triple-diff* discutida em @sec-modelos.
+Os testes são aplicados a sete séries derivadas dos dados FEBRABAN, organizadas nas três dimensões discutidas no Capítulo 2: (i) penetração (taxas de habilitação de IB e MB sobre o total de contas ativas), (ii) utilização (transações totais e transações móveis per capita) e (iii) composição (participação do MB no total de transações e proporção de transações com movimentação financeira efetiva no MB). A redundância parcial entre as séries é proposital. Se dimensões distintas apontarem para a mesma data, a inferência sobre $t^\ast$ ganha robustez: estimar uma quebra comum a partir de múltiplas séries produz uma data mais precisa do que a obtida de qualquer série isolada [@bai1998]. Se divergirem, o sinal é de que a digitalização é um processo multidimensional, com inflexões próprias em cada vetor [@khera2022], o que abre espaço para a especificação *triple-diff* discutida em @sec-modelos.
 
 ```{r}
 #| label: setup-cap3
@@ -942,8 +1184,14 @@ if (!exists("tema_abnt")) {
       legend.title = element_blank(),
       panel.grid.minor = element_blank(),
       axis.title = element_text(size = 11),
-      axis.text = element_text(size = 10)
+      axis.text = element_text(size = 10),
+      plot.caption = element_text(size = 8, hjust = 0, color = "black",
+                                  margin = margin(t = 8))
     )
+}
+
+if (!exists("fonte_febraban")) {
+  fonte_febraban <- "Fonte: Elaboração própria (2026), adaptado de Febraban (2013 à 2024)."
 }
 
 febraban_q <- febraban |>
@@ -984,7 +1232,9 @@ series_q <- list(
 resultados_quebra <- lapply(series_q, detectar_quebras)
 ```
 
-A @tbl-quebras resume os resultados dos testes nas seis séries selecionadas. A coluna *Quandt-Andrews* indica a data da quebra única dominante, ou seja, o ponto em que a estatística sup-Wald atinge o máximo; a coluna *Bai-Perron* informa o número $m^\ast$ de quebras escolhido pelo BIC e os anos correspondentes. Duas regularidades chamam atenção. Primeiro, o sup-Wald aponta consistentemente para 2020–2021 como quebra dominante nas séries de penetração (Pen_MB, Pen_IB) e de utilização (transações totais e móveis per capita), com p-valor inferior a 0,01 em todas. A data coincide com o triplo choque pandemia, Pix e *lockdowns*, que reorganizou o sistema de pagamentos brasileiro. Segundo, a série de composição (% do MB no total de transações) tem quebra dominante em 2016, justamente o momento em que o Mobile Banking ultrapassa o Internet Banking como canal predominante. O Bai-Perron, por sua vez, detecta várias quebras secundárias em todas as séries. Esse comportamento é esperado em séries anuais relativamente curtas (16 observações) e com tendência forte, em que o BIC tende a particionar finamente o domínio temporal. Aqui, o procedimento entra como diagnóstico complementar: as quebras se concentram em três janelas (2014–2016, 2018–2019 e 2020–2021), o que reforça a leitura de que a digitalização é um processo em fases, com transição estrutural lenta culminando em 2015–2016 e choque agudo em 2020–2021. Essa decomposição é o que viabiliza a especificação *triple-diff* introduzida adiante.
+A @tbl-quebras resume os resultados dos testes nas seis séries selecionadas. A coluna *Quandt-Andrews* indica a data da quebra única dominante, ou seja, o ponto em que a estatística sup-Wald atinge o máximo; a coluna *Bai-Perron* informa o número $m^\ast$ de quebras escolhido pelo BIC e os anos correspondentes. Duas regularidades chamam atenção. Primeiro, o sup-Wald aponta consistentemente para 2020–2021 como quebra dominante nas séries de penetração (Pen_MB, Pen_IB) e de utilização (transações totais e móveis per capita), com p-valor inferior a 0,01 em todas. A data coincide com o triplo choque pandemia, Pix e *lockdowns*, que reorganizou o sistema de pagamentos brasileiro.
+
+Segundo, a série de composição (% do MB no total de transações) tem quebra dominante em 2016, justamente o momento em que o Mobile Banking ultrapassa o Internet Banking como canal predominante. O Bai-Perron, por sua vez, detecta várias quebras secundárias em todas as séries. Esse comportamento é esperado em séries anuais relativamente curtas (16 observações) e com tendência forte, em que o BIC tende a particionar finamente o domínio temporal. Aqui, o procedimento entra como diagnóstico complementar: as quebras se concentram em três janelas (2014–2016, 2018–2019 e 2020–2021), o que reforça a leitura de que a digitalização é um processo em fases, com transição estrutural lenta culminando em 2015–2016 e choque agudo em 2020–2021. Essa decomposição é o que viabiliza a especificação *triple-diff* introduzida adiante.
 
 ```{r}
 #| label: tbl-quebras
@@ -1037,18 +1287,18 @@ ggplot(dados_fig, aes(x = Ano, y = Valor)) +
              linetype = "dashed", color = "grey25") +
   facet_wrap(~ Serie, scales = "free_y", ncol = 1) +
   scale_x_continuous(breaks = seq(2009, 2024, 2)) +
-  labs(x = "Ano", y = NULL) +
+  labs(x = "Ano", y = NULL, caption = fonte_febraban) +
   tema_abnt +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
 O conjunto dos três procedimentos sustenta a escolha de $t^\ast = 2020$ como data de tratamento principal nos modelos de diferenças-em-diferenças deste capítulo, com 2016 entrando como data secundária na especificação *triple-diff*. Três argumentos reforçam essa decisão. Primeiro, o Quandt-Andrews aponta 2020–2021 como quebra dominante em cinco das seis séries, com p-valor inferior a 0,01 em todas. Segundo, 2020 é a única data identificada ao mesmo tempo nas dimensões de penetração e de utilização. É, portanto, a inflexão de maior alcance, o momento em que a digitalização deixa de ser fenômeno de uma fração da população bancarizada e passa a estruturar o sistema de pagamentos como um todo. Terceiro, a quebra coincide com marcos institucionais conhecidos (decreto de pandemia em março de 2020 e Pix em novembro de 2020), o que dá interpretação econômica clara à inflexão, em vez de uma quebra puramente estatística. A janela pré-tratamento adotada vai de 2014 a 2019 (seis anos) e a pós, de 2020 a 2023 (quatro anos), totalizando oito anos efetivos de painel para o event study e demais modelos.
 
-A datação fixada aqui orienta as próximas duas etapas. A construção da exposição ex-ante (@sec-exposicao) usará apenas dados anteriores a 2020 para evitar contaminação por antecipação do tratamento. Os modelos de impacto (@sec-modelos) terão $t^\ast = 2020$ como referência principal e 2016 como teste de robustez e marco da fase estrutural anterior.
+A datação fixada aqui orienta as próximas duas etapas. A construção da exposição *ex-ante* (@sec-exposicao) usará apenas dados anteriores a 2020 para evitar contaminação por antecipação do tratamento. Os modelos de impacto (@sec-modelos) terão $t^\ast = 2020$ como referência principal e 2016 como teste de robustez e marco da fase estrutural anterior.
 
-## Construção da exposição ex-ante {#sec-exposicao}
+## Construção da exposição *ex-ante* {#sec-exposicao}
 
-Datado o choque, é preciso gerar variação cross-section na intensidade do tratamento. Como já mencionado, a série FEBRABAN é nacional e, por si só, não permite distinguir municípios mais ou menos atingidos. A solução, em linha com a literatura de identificação *shift-share* [@borusyak2024], é multiplicar o componente nacional do choque (o *shifter*, $\text{FEBRABAN}_t$) por uma medida cross-section da exposição ex-ante de cada município ao canal de transmissão da digitalização (a *share*, $E_i$). A intuição é simples: dois municípios sujeitos ao mesmo choque agregado reagem de forma diferente conforme suas condições iniciais, ou seja, conforme a dependência prévia da infraestrutura física e a capacidade local de absorver o canal digital.
+Datado o choque, é preciso gerar variação cross-section na intensidade do tratamento. Como já mencionado, a série FEBRABAN é nacional e, por si só, não permite distinguir municípios mais ou menos atingidos. A solução, em linha com a literatura de identificação *shift-share* [@borusyak2024], é multiplicar o componente nacional do choque (o *shifter*, $\text{FEBRABAN}_t$) por uma medida cross-section da exposição *ex-ante* de cada município ao canal de transmissão da digitalização (a *share*, $E_i$). A intuição é simples: dois municípios sujeitos ao mesmo choque agregado reagem de forma diferente conforme suas condições iniciais, ou seja, conforme a dependência prévia da infraestrutura física e a capacidade local de absorver o canal digital.
 
 A operacionalização da exposição envolve cinco escolhas explícitas. *Primeiro*, a janela temporal: usam-se médias de 2009–2013, anteriores tanto à transição estrutural de 2015–2016 quanto ao choque de 2020, para evitar contaminação por antecipação ou *feedback*. *Segundo*, a escala: como a FEBRABAN não traz dados municipais de banda larga ou penetração de smartphones para o início da série, a exposição usa apenas variáveis bancárias e econômicas da base ESTBAN-IBGE. Uma especificação alternativa, com dados da ANATEL e do Censo 2010, aparece como teste de robustez em @sec-modelos. *Terceiro*, as variáveis: cinco indicadores resumem, à luz do referencial pós-keynesiano do Capítulo 1, a vulnerabilidade do município à substituição digital:
 
@@ -1132,7 +1382,7 @@ A @tbl-pca-exposicao mostra a estrutura da ACP. A primeira componente principal 
 #| echo: false
 #| message: false
 #| warning: false
-#| tbl-cap: "ACP da exposição ex-ante: variância explicada e loadings da primeira componente"
+#| tbl-cap: "ACP da exposição  *ex-ante* : variância explicada e loadings da primeira componente"
 
 imp <- summary(pca_exp)$importance
 loadings_pc1 <- pca_exp$rotation[, 1]
@@ -1181,7 +1431,7 @@ Para validar empiricamente o *score*, a @fig-exposicao-porte mostra a distribui�
 #| echo: false
 #| message: false
 #| warning: false
-#| fig-cap: "Distribuição do *score* de exposição ex-ante (PC1) por faixa de PIB real de 2009. Caixas indicam quartis; linha central, mediana; pontos pretos, médias por faixa."
+#| fig-cap: "Distribuição do *score* de exposição *ex-ante* (PC1) por faixa de PIB real de 2009. Caixas indicam quartis; linha central, mediana; pontos pretos, médias por faixa."
 #| fig-width: 7
 #| fig-height: 4.5
 
@@ -1201,6 +1451,46 @@ ggplot(dados_box, aes(x = faixa_pib, y = Exposicao)) +
   tema_abnt
 ```
 
+O *score* também tem geografia própria, e ela não decorre apenas do porte. A @fig-mapa-exposicao mapeia $E_i$ para os 3.666 municípios com cobertura física prévia e deixa em cinza escuro os 1.904 da categoria *Sem cobertura prévia*. As manchas são contíguas. A mediana do *score* é de +0,77 no Nordeste e +0,50 no Norte, contra +0,04 no Centro-Oeste e −0,05 no Sudeste, e a proporção de municípios sem cobertura prévia vai de 47,2% no Nordeste a 22,7% no Sudeste. O semiárido reúne o caso extremo: mediana de +0,88 nos seus 1.477 municípios contra +0,15 nos demais, 31,5% deles no quintil superior de exposição (17,1% fora do semiárido) e metade sem agência alguma antes de 2014. As medianas estaduais mais altas ficam no Maranhão (+0,98) e na Paraíba (+0,95); as mais baixas, no Distrito Federal (−4,75) e no Rio de Janeiro (−1,56). Municípios vizinhos, portanto, foram atingidos com intensidade parecida. Daí a especificação SLX-DiD de @sec-sdm, em que a exposição dos vizinhos entra como regressor: quando o tratamento se agrupa no espaço dessa maneira, atribuir a cada município apenas o efeito da própria exposição contamina a estimativa com o que aconteceu ao redor.
+
+```{r}
+#| label: fig-mapa-exposicao
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: "Distribuição espacial do *score* de exposição *ex-ante* à digitalização (PC1, médias 2009--2013)"
+#| fig-width: 7
+#| fig-height: 6
+
+mapa_exp <- exposicao |>
+  transmute(
+    cod_mun_ibge = as.character(cod_mun_ibge),
+    Exposicao,
+    com_cobertura = grupo == "Com cobertura"
+  )
+mapa_exp$classe <- quintis_mapa(mapa_exp$Exposicao, mapa_exp$com_cobertura,
+                                rotulo_na = "Sem cobertura prévia")
+
+poly_exp <- mapas$mun |>
+  left_join(mapa_exp |> select(cod_mun_ibge, classe), by = "cod_mun_ibge")
+
+ggplot() +
+  geom_polygon(data = poly_exp, aes(long, lat, group = grp, fill = classe)) +
+  geom_polygon(data = mapas$uf, aes(long, lat, group = grp),
+               fill = NA, colour = "white", linewidth = 0.2) +
+  scale_fill_manual(
+    values = c(pal_mapa[seq_len(nlevels(mapa_exp$classe) - 1)], "grey55"),
+    name = expression(italic(E[i]) ~ "(quintis)"), na.value = "grey55",
+    drop = FALSE
+  ) +
+  rosa_dos_ventos(-36, -31.5, 1.4) +
+  barra_escala(-70, -32.5, 500, -32.5) +
+  coord_quickmap() +
+  labs(caption = paste("Fonte: elaboração própria a partir da ESTBAN/BCB, do PIB",
+                       "municipal do IBGE e da malha municipal digital do IBGE.")) +
+  tema_mapa
+```
+
 A @tbl-exposicao-grupos compara as três categorias analíticas que serão usadas a partir de @sec-modelos: terço inferior dos municípios com cobertura física pré-2013 (baixa exposição), terço superior dos mesmos (alta exposição) e conjunto dos municípios sem cobertura prévia. Os contrastes de partida são acentuados. Os municípios de baixa exposição têm mediana de 11 agências e PIB real de R$ 1,4 bilhão em 2009; os de alta exposição, mediana de 1 agência e PIB de R$ 84 milhões; os sem cobertura têm, por construção, zero agências e PIB mediano de apenas R$ 41 milhões. Essa estratificação se mantém nas análises de heterogeneidade do efeito da digitalização e permite testar empiricamente a hipótese H2.
 
 ```{r}
@@ -1208,7 +1498,7 @@ A @tbl-exposicao-grupos compara as três categorias analíticas que serão usada
 #| echo: false
 #| message: false
 #| warning: false
-#| tbl-cap: "Caracterização ex-ante das três categorias analíticas (medianas, 2009–2013)"
+#| tbl-cap: "Caracterização *ex-ante* das três categorias analíticas (medianas, 2009–2013)"
 
 categorizar <- function(df) {
   com <- df |> filter(grupo == "Com cobertura")
@@ -1243,7 +1533,7 @@ knitr::kable(tab_grupos, align = c("l", "c", "c", "c", "c", "c"), booktabs = TRU
 kableExtra::kable_styling(latex_options = c("HOLD_position", "scale_down"))
 ```
 
-O *score* $E_i$ derivado aqui é o instrumento central de identificação dos modelos quasi-experimentais da próxima seção. Em todas as especificações, $E_i$ entra interagido com a indicadora de pós-tratamento ($\mathbb{1}\{t \geq t^\ast\}$) ou com a série contínua FEBRABAN, e é por esse caminho que se obtém a variação cross-section necessária para identificar efeitos heterogêneos da digitalização. A categoria "Sem cobertura prévia" é tratada como um quarto braço analítico, o que permite testar se a exclusão financeira pré-existente foi atenuada ou aprofundada pelo choque digital, pergunta central do Eixo iii desta dissertação.
+O *score* $E_i$ derivado aqui é o instrumento central de identificação dos modelos quasi-experimentais da próxima seção. Em todas as especificações, $E_i$ entra interagido com a indicadora de pós-tratamento ($\mathbb{1}\{t \geq t^\ast\}$) ou com a série contínua FEBRABAN, e é por esse caminho que se obtém a variação cross-section necessária para identificar efeitos heterogêneos da digitalização. A categoria "Sem cobertura prévia" é tratada como um quarto braço analítico, o que permite testar se a exclusão financeira pré-existente foi atenuada ou aprofundada pelo choque digital, pergunta central do Eixo iii deste trabalho.
 
 ## Modelos de impacto: event study e DiD com tratamento contínuo {#sec-modelos}
 
@@ -1310,7 +1600,9 @@ es_nag <- feols(
 
 A @fig-eventstudy-nag traz o *event study* para o estoque de agências bancárias. Três padrões saltam aos olhos. Primeiro, os coeficientes pré-2020 ($k = -6,\dots,-2$) são positivos e estatisticamente significativos, e caem monotonicamente rumo a zero à medida que $k \to -1$, descendo de cerca de $+0{,}043$ em $k = -6$ para $+0{,}013$ em $k = -2$. Segundo, os coeficientes pós-2020 ($k = 0, 1, 2$) se estabilizam em torno de $+0{,}007$, abaixo do nível observado em $k = -2$ mas claramente afastados da trajetória que apontava para zero em $k = -1$. Terceiro, o ponto de inflexão coincide com $t^\ast = 2020$, ano em que a trajetória descendente dos coeficientes se interrompe.
 
-A leitura econômica desse padrão é central para o restante do capítulo e vale ser detalhada. Coeficientes positivos no pré-tratamento implicam que a hipótese de tendências paralelas estritas é rejeitada. Entre 2014 e 2019, os municípios mais expostos vinham reduzindo a diferença em estoque de agências em relação aos menos expostos. Em outras palavras, existia uma trajetória prévia de convergência intermunicipal no acesso à infraestrutura física bancária. Depois de 2020 essa convergência cessa: o gap relativo congela em um patamar próximo de $\beta_{-2}$, sem dar continuidade à aproximação. Sob a leitura convencional do DiD, o coeficiente médio negativo (apresentado adiante) deve então ser interpretado como efeito *contrafactual* da digitalização sobre a continuidade da convergência, e não como redução absoluta do estoque de agências nos municípios expostos. Essa nuance volta em três momentos: na discussão do DiD agregado, nas especificações de robustez com DiD sintético em @sec-robustez e na análise de mediação em @sec-mediacao, em que o canal de fechamento de agências é isolado dos demais efeitos da digitalização.
+A leitura econômica desse padrão é central para o restante do capítulo e vale ser detalhada. Coeficientes positivos no pré-tratamento implicam que a hipótese de tendências paralelas estritas é rejeitada. Entre 2014 e 2019, os municípios mais expostos vinham reduzindo a diferença em estoque de agências em relação aos menos expostos. Em outras palavras, existia uma trajetória prévia de convergência intermunicipal no acesso à infraestrutura física bancária. Depois de 2020 essa convergência cessa: o gap relativo congela em um patamar próximo de $\beta_{-2}$, sem dar continuidade à aproximação.
+
+Sob a leitura convencional do DiD, o coeficiente médio negativo (apresentado adiante) deve então ser interpretado como efeito *contrafactual* da digitalização sobre a continuidade da convergência, e não como redução absoluta do estoque de agências nos municípios expostos. Essa nuance volta em três momentos: na discussão do DiD agregado, nas especificações de robustez com DiD sintético em @sec-robustez e na análise de mediação em @sec-mediacao, em que o canal de fechamento de agências é isolado dos demais efeitos da digitalização.
 
 ```{r}
 #| label: fig-eventstudy-nag
@@ -1598,7 +1890,9 @@ A próxima seção fecha o núcleo analítico do capítulo, decompondo o efeito 
 
 ## Decomposição do efeito sobre a qualidade do crédito: análise de mediação {#sec-mediacao}
 
-As seções anteriores estabeleceram dois fatos empíricos que, apesar de coerentes entre si, descrevem fenômenos analiticamente distintos. De um lado, a digitalização contraiu o estoque de agências físicas nos municípios mais expostos (@sec-modelos), com forte deslocamento territorial rumo aos centros regionais (@sec-sdm). De outro, ela provocou uma queda expressiva da razão IRF/IRE nesses mesmos municípios. Vale lembrar que IRF é o saldo de financiamentos de longo prazo (conta 162 da ESTBAN: crédito imobiliário, capital de giro estendido, financiamento de investimento) e IRE é o saldo de empréstimos de curto prazo (conta 161: crédito pessoal, cheque especial, capital de giro de curtíssimo prazo). A razão IRF/IRE funciona como termômetro da sofisticação da carteira de crédito local: valores altos indicam portfólio voltado a operações estruturadas e relacionais; valores baixos, um crédito predominantemente curto e padronizado. A queda dessa razão nos municípios mais expostos é o que se chama aqui de deterioração qualitativa do crédito.
+As seções anteriores estabeleceram dois fatos empíricos que, apesar de coerentes entre si, descrevem fenômenos analiticamente distintos. De um lado, a digitalização contraiu o estoque de agências físicas nos municípios mais expostos (@sec-modelos), com forte deslocamento territorial rumo aos centros regionais (@sec-sdm). De outro, ela provocou uma queda expressiva da razão IRF/IRE nesses mesmos municípios. Vale lembrar que IRF é o saldo de financiamentos de longo prazo (conta 162 da ESTBAN: crédito imobiliário, capital de giro estendido, financiamento de investimento) e IRE é o saldo de empréstimos de curto prazo (conta 161: crédito pessoal, cheque especial, capital de giro de curtíssimo prazo).
+
+A razão IRF/IRE funciona como termômetro da sofisticação da carteira de crédito local: valores altos indicam portfólio voltado a operações estruturadas e relacionais; valores baixos, um crédito predominantemente curto e padronizado. A queda dessa razão nos municípios mais expostos é o que se chama aqui de deterioração qualitativa do crédito.
 
 A hipótese H5 oferece uma leitura particular para esses dois fatos. A deterioração da qualidade do crédito não seria subproduto autônomo da digitalização, e sim consequência financeira do recuo da infraestrutura física que historicamente sustentava as operações de longo prazo nessas localidades. Em outras palavras, a digitalização derrubaria o IRF/IRE *porque* derruba o estoque de agências. A agência seria, nessa leitura, o elo causal entre o choque tecnológico e a transformação qualitativa do crédito.
 
@@ -1613,7 +1907,7 @@ $$
 Y_{it} = \alpha^Y_i + \lambda^Y_t + \phi\,(\text{Post}_t \times E_i) + \psi\, M_{it} + \gamma X_{it} + v_{it}
 $$
 
-Cada termo se lê assim. $M_{it} = \ln(n_{\text{agências}_{it}} + 1)$ é a variável mediadora, ou seja, o estoque de agências físicas do município $i$ no ano $t$, em logaritmo (somar 1 evita o log de zero em municípios que perderam toda a rede). $Y_{it} = \text{IRF/IRE}_{it}$ é o desfecho de interesse, a razão de qualidade do crédito. $\text{Post}_t$ é a indicadora do choque digital, igual a 1 a partir de 2020 e 0 antes; $E_i$ é o *score* de exposição ex-ante construído em @sec-exposicao; o produto $\text{Post}_t \times E_i$ é a variável de tratamento, a intensidade do choque digital sentida por cada município. $X_{it}$ inclui $\ln(\text{PIB real})$ como controle. $\alpha_i$ e $\lambda_t$ são os efeitos fixos de município e de ano: o primeiro absorve tudo o que é próprio de cada município e invariante no tempo (a posição na hierarquia urbana, por exemplo); o segundo absorve tudo o que é comum a todos os municípios em cada ano (a recessão de 2015 ou o choque pandêmico).
+Cada termo se lê assim. $M_{it} = \ln(n_{\text{agências}_{it}} + 1)$ é a variável mediadora, ou seja, o estoque de agências físicas do município $i$ no ano $t$, em logaritmo (somar 1 evita o log de zero em municípios que perderam toda a rede). $Y_{it} = \text{IRF/IRE}_{it}$ é o desfecho de interesse, a razão de qualidade do crédito. $\text{Post}_t$ é a indicadora do choque digital, igual a 1 a partir de 2020 e 0 antes; $E_i$ é o *score* de exposição *ex-ante* construído em @sec-exposicao; o produto $\text{Post}_t \times E_i$ é a variável de tratamento, a intensidade do choque digital sentida por cada município. $X_{it}$ inclui $\ln(\text{PIB real})$ como controle. $\alpha_i$ e $\lambda_t$ são os efeitos fixos de município e de ano: o primeiro absorve tudo o que é próprio de cada município e invariante no tempo (a posição na hierarquia urbana, por exemplo); o segundo absorve tudo o que é comum a todos os municípios em cada ano (a recessão de 2015 ou o choque pandêmico).
 
 Os coeficientes-chave da decomposição são quatro:
 
@@ -1626,7 +1920,9 @@ A soma ACME + ADE = $\delta \psi + \phi$ recupera o efeito total $\tau$ (tau) da
 
 Toda inferência estatística envolve incerteza amostral. O ACME, por ser produto de duas estimativas, exige cuidado adicional: sua distribuição é não normal mesmo quando $\delta$ e $\psi$ são quase normais. Aqui se combinam dois procedimentos. O primeiro é o teste de Sobel, que aproxima o erro-padrão do produto por $\sqrt{\psi^2\,\text{SE}(\delta)^2 + \delta^2\,\text{SE}(\psi)^2}$ e fornece um IC rápido sob hipóteses normais. O segundo é um *bootstrap* de blocos por município com 500 réplicas: em cada réplica, sorteiam-se com reposição os 3.636 municípios da amostra (preservando suas séries temporais inteiras para manter a dependência intra-municipal), reestimam-se as equações e calcula-se um novo $\delta \times \psi$. A distribuição empírica desses 500 valores devolve um IC não paramétrico robusto à não normalidade. Os intervalos reportados na tabela são os percentis 2,5 e 97,5 dessa distribuição, indicados como IC 95%.
 
-A janela de estimação fica restrita a 2014–2022 por causa da subnotificação de `n_agencias` em 2023, problema descrito no Capítulo 2. Os municípios sem cobertura prévia (que já não tinham agência antes do choque) são excluídos, pois o canal mediado é, por construção, inaplicável a localidades sem ponto físico para fechar. Há ainda uma restrição amostral importante: a razão IRF/IRE só é definida quando o estoque de empréstimos de curto prazo é positivo, ou seja, em municípios com algum mercado de crédito ativo. Aplicado esse filtro, sobram 3.636 municípios e 29.970 observações no painel desta seção, contra cerca de 4.500 municípios com cobertura prévia disponíveis em @sec-modelos. O subconjunto remanescente é, em média, economicamente mais ativo, e essa seleção tem implicações diretas para a leitura dos coeficientes, como se discute adiante.
+A janela de estimação fica restrita a 2014–2022 por causa da subnotificação de `n_agencias` em 2023, problema descrito no Capítulo 2. Os municípios sem cobertura prévia (que já não tinham agência antes do choque) são excluídos, pois o canal mediado é, por construção, inaplicável a localidades sem ponto físico para fechar. Há ainda uma restrição amostral importante: a razão IRF/IRE só é definida quando o estoque de empréstimos de curto prazo é positivo, ou seja, em municípios com algum mercado de crédito ativo. Aplicado esse filtro, sobram 3.636 municípios e 29.970 observações no painel desta seção, contra cerca de 4.500 municípios com cobertura prévia disponíveis em @sec-modelos.
+
+O subconjunto remanescente é, em média, economicamente mais ativo, e essa seleção tem implicações diretas para a leitura dos coeficientes, como se discute adiante. A @tbl-mediacao traz a decomposição. A leitura segue em quatro pontos, um por coeficiente.
 
 ```{r}
 #| label: setup-mediacao
@@ -1673,8 +1969,6 @@ tab_med <- data.frame(
 knitr::kable(tab_med, align = c("l", "c", "c"), booktabs = TRUE, escape = FALSE,
              col.names = c("Componente", "Estimativa (SE)", "IC 95\\% bootstrap"))
 ```
-
-A @tbl-mediacao traz a decomposição. A leitura segue em quatro pontos, um por coeficiente.
 
 O primeiro ponto é $\delta$, o efeito do tratamento sobre a mediadora. Aqui, $\delta = +0{,}0200$ (erro-padrão de 0,0012), positivo e altamente significativo. Em palavras: na subamostra em que o IRF/IRE é definido, cada desvio-padrão adicional de exposição digital se associa a uma alta de cerca de 2% no logaritmo do estoque de agências após 2020, exatamente o oposto do esperado pela hipótese inicial. Esse sinal contradiz aparentemente o achado da @tbl-did-principal (onde o coeficiente médio sobre $\ln(n_{\text{agências}}+1)$ era negativo), mas a explicação é amostral. Ao restringir o painel aos municípios com algum estoque de empréstimos de curto prazo, exclui-se justamente o segmento mais vulnerável, ou seja, os municípios pequenos e periféricos em que a contração de agências foi mais aguda e em que IRF/IRE é zero porque não há crédito de longo prazo a registrar. Sobra um conjunto de municípios com mercado de crédito mais consolidado, nos quais a digitalização, no agregado, preservou ou até expandiu marginalmente a rede física. Logo, $\delta$ não pode ser lido como efeito médio da digitalização sobre agências em todo o Brasil; é o efeito específico nesta subamostra. Essa qualificação é central para tudo o que vem a seguir.
 
@@ -1862,9 +2156,11 @@ knitr::kable(linhas_sd, align = c("l","c","c","c"), booktabs = TRUE, escape = FA
 
 A leitura da tabela pede cuidado, pois algumas linhas mudam de figura em relação ao DiD principal. Para IRF/IRE, o coeficiente é positivo e indistinguível de zero, ao contrário do sinal negativo do DiD principal. Para ICO, o sinal inverte-se: o SDiD produz $-0,030$ (significativo), enquanto o DiD contínuo encontra efeito médio positivo. Para $\ln(n_{\text{agências}})$ e IRC, o SDiD também devolve coeficientes positivos, de sinal oposto ao do DiD principal.
 
-Três considerações ajudam a encaixar esses números no argumento do capítulo. Primeira, a *unidade de tratamento* não é a mesma. O DiD contínuo estima o efeito de um desvio-padrão adicional de exposição em uma especificação linear sobre toda a distribuição; o SDiD estima o efeito médio sobre os tratados (ATT) na comparação binária entre os dois tercis extremos. Não são quantidades equivalentes, e a divergência entre elas não constitui, por si só, uma falsificação. A @sec-heterogeneidade já tinha mostrado que o efeito sobre $n_{\text{agências}}$ tem padrão de U-invertido por porte, com perdas nas duas pontas da distribuição. O tercil inferior do *score* de exposição concentra justamente as grandes metrópoles, que também perderam agências (@sec-heterogeneidade); o SDiD acaba comparando perda nas periferias contra perda nos centros, e nessa comparação a magnitude relativa pode inverter o sinal. Isso é coerente com a heterogeneidade já documentada e não desmonta o achado do gradiente contínuo. Segunda, o SDiD por construção corrige tendências pré-tratamento via pesos sintéticos. Onde o DiD principal capturava a continuação de uma trajetória pré-existente (caso de $n_{\text{agências}}$ na @sec-modelos e do IRC na subseção placebo acima), o SDiD remove essa parcela e pode deixar um resíduo de sinal oposto. Esse é o uso pretendido do estimador. Terceira, o coeficiente de IRF/IRE próximo de zero no SDiD recomenda cautela quanto à *magnitude* do efeito da digitalização sobre a qualidade do crédito na subamostra balanceada. O efeito direto identificado na @sec-mediacao (ADE = $-0,011$, robusto) não é desmentido por essa estimativa, já que opera sobre subamostra e estratégia de identificação distintas, mas sinaliza que o mecanismo principal de piora de IRF/IRE pode ser mais espacial (o deslocamento territorial da @sec-sdm) do que distribuído por toda a distribuição.
+Três considerações ajudam a encaixar esses números no argumento do capítulo. Primeira, a *unidade de tratamento* não é a mesma. O DiD contínuo estima o efeito de um desvio-padrão adicional de exposição em uma especificação linear sobre toda a distribuição; o SDiD estima o efeito médio sobre os tratados (ATT) na comparação binária entre os dois tercis extremos. Não são quantidades equivalentes, e a divergência entre elas não constitui, por si só, uma falsificação. A @sec-heterogeneidade já tinha mostrado que o efeito sobre $n_{\text{agências}}$ tem padrão de U-invertido por porte, com perdas nas duas pontas da distribuição. O tercil inferior do *score* de exposição concentra justamente as grandes metrópoles, que também perderam agências (@sec-heterogeneidade); o SDiD acaba comparando perda nas periferias contra perda nos centros, e nessa comparação a magnitude relativa pode inverter o sinal. Isso é coerente com a heterogeneidade já documentada e não desmonta o achado do gradiente contínuo. Segunda, o SDiD por construção corrige tendências pré-tratamento via pesos sintéticos. 
 
-A síntese honesta deste exercício é a seguinte. Os achados centrais do capítulo se mantêm em sentido: a digitalização reorganiza territorialmente a oferta de crédito. A *magnitude* e o *sinal médio* sobre subamostras balanceadas, no entanto, são sensíveis à escolha do estimador. Trata-se de limitação reconhecida e que merece destaque nas considerações finais. O cerne da inferência continua sendo o gradiente contínuo identificado pelo DiD, complementado pelos achados espaciais e de heterogeneidade. Estimadores que exigem binarização ou correção sintética entram como apoio, não como substitutos.
+Nos casos em que o DiD principal capturava a continuação de uma trajetória pré-existente (caso de $n_{\text{agências}}$ na @sec-modelos e do IRC na subseção placebo acima), o SDiD remove essa parcela e pode deixar um resíduo de sinal oposto. Esse é o uso pretendido do estimador. Terceira, o coeficiente de IRF/IRE próximo de zero no SDiD recomenda cautela quanto à *magnitude* do efeito da digitalização sobre a qualidade do crédito na subamostra balanceada. O efeito direto identificado na @sec-mediacao (ADE = $-0,011$, robusto) não é desmentido por essa estimativa, já que opera sobre subamostra e estratégia de identificação distintas, mas sinaliza que o mecanismo principal de piora de IRF/IRE pode ser mais espacial (o deslocamento territorial da @sec-sdm) do que distribuído por toda a distribuição.
+
+Em síntese, os achados centrais do capítulo se mantêm em sentido: a digitalização reorganiza territorialmente a oferta de crédito. A *magnitude* e o *sinal médio* sobre subamostras balanceadas, no entanto, são sensíveis à escolha do estimador. Trata-se de limitação reconhecida e que merece destaque nas considerações finais. O cerne da inferência continua sendo o gradiente contínuo identificado pelo DiD, complementado pelos achados espaciais e de heterogeneidade. Estimadores que exigem binarização ou correção sintética entram como apoio, não como substitutos.
 
 ### Matrizes de pesos espaciais alternativas
 
@@ -2006,11 +2302,13 @@ ggplot(dados_q, aes(x = tau, y = est)) +
 
 Os dois desfechos respondem ao gradiente de exposição de formas qualitativamente distintas (@tbl-quantilica e @fig-quantilica).
 
-No IRC, o OLS-FE médio é pequeno e indistinguível de zero ($-0{,}003$, p $\approx$ 0,40). A regressão quantílica mostra que esse efeito agregado nulo não vem de cancelamento simétrico entre as caudas, e sim de um efeito concentrado no topo. Os coeficientes de $\tau = 0{,}10$ a $\tau = 0{,}75$ ficam todos próximos de zero, na maioria não significativos ($-0{,}0005$, $+0{,}003$, $+0{,}001$ e $-0{,}001$). Só em $\tau = 0{,}90$ aparece um coeficiente claramente negativo ($-0{,}007$, IC 95% $[-0{,}012\,;-0{,}001]$). Em termos econômicos, a digitalização não mexeu no nível de centralidade financeira da maioria dos municípios; ela só erodiu, na margem, a posição relativa dos que já estavam no topo do ranking de IRC. Isso enfraquece a leitura mais forte do viés metropolitano agregado, mas é compatível com o padrão de @sec-sdm: os spillovers positivos da exposição vizinha sobre o IRC redistribuem centralidade dentro do território e drenam parte dela dos polos consolidados.
+No IRC, o OLS-FE médio é pequeno e indistinguível de zero ($-0{,}003$, p $\approx$ 0,40). A regressão quantílica mostra que esse efeito agregado nulo não vem de cancelamento simétrico entre as caudas, e sim de um efeito concentrado no topo. Os coeficientes de $\tau = 0{,}10$ a $\tau = 0{,}75$ ficam todos próximos de zero, na maioria não significativos ($-0{,}0005$, $+0{,}003$, $+0{,}001$ e $-0{,}001$). Só em $\tau = 0{,}90$ aparece um coeficiente claramente negativo ($-0{,}007$, IC 95% $[-0{,}012\,;-0{,}001]$). 
+
+Em termos econômicos, a digitalização não mexeu no nível de centralidade financeira da maioria dos municípios; ela só erodiu, na margem, a posição relativa dos que já estavam no topo do ranking de IRC. Isso enfraquece a leitura mais forte do viés metropolitano agregado, mas é compatível com o padrão de @sec-sdm: os spillovers positivos da exposição vizinha sobre o IRC redistribuem centralidade dentro do território e drenam parte dela dos polos consolidados.
 
 No IRF/IRE o quadro é mais nítido. O OLS-FE médio é $-0{,}022$ (p $<$ 0,001). A decomposição quantílica mostra que a queda agregada se distribui de forma desigual. Nos três quantis inferiores os coeficientes são fortemente negativos e significativos a 1%: $-0{,}023$ em $\tau = 0{,}10$, $-0{,}016$ no primeiro quartil, $-0{,}009$ na mediana. Em $\tau = 0{,}75$ o efeito praticamente some ($-0{,}002$, não significativo), e em $\tau = 0{,}90$ volta a ser negativo e significativo ($-0{,}012$). O perfil tem formato em U assimétrico: a perda de qualidade do crédito é mais aguda nos municípios cuja razão financiamento/empréstimo já partia de patamares baixos, atinge também o segmento de elite, e só poupa o terceiro quartil.
 
-Onde o crédito de longo prazo era escasso desde o início, a digitalização aprofundou a escassez. Onde a razão estava próxima da mediana, a queda foi mais moderada, ainda assim significativa. A faixa intermediária superior, em torno de $\tau = 0{,}75$, é a única em que o choque digital não deixou marca distinguível. Uma hipótese plausível para essa resiliência é institucional: presença de cooperativas de crédito e de bancos públicos com vocação de financiamento longo, ponto que cabe testar nos estudos de caso de @sec-casos. A queda em $\tau = 0{,}90$, por sua vez, mostra que mesmo o topo perdeu crédito de longo prazo. A digitalização achatou a parte alta da distribuição em direção à mediana.
+Nos casos em que o crédito de longo prazo era escasso desde o início, a digitalização aprofundou a escassez. Onde a razão estava próxima da mediana, a queda foi mais moderada, ainda assim significativa. A faixa intermediária superior, em torno de $\tau = 0{,}75$, é a única em que o choque digital não deixou marca distinguível. Uma hipótese plausível para essa resiliência é institucional: presença de cooperativas de crédito e de bancos públicos com vocação de financiamento longo, ponto que cabe testar nos estudos de caso de @sec-casos. A queda em $\tau = 0{,}90$, por sua vez, mostra que mesmo o topo perdeu crédito de longo prazo. A digitalização achatou a parte alta da distribuição em direção à mediana.
 
 A leitura conjunta refina os eixos centrais da dissertação. No Eixo ii, o efeito médio nulo do IRC esconde erosão concentrada no topo, coerente com os spillovers positivos sobre municípios menores identificados em @sec-sdm: a digitalização redistribuiu centralidade dentro do território em vez de concentrá-la nos polos. No Eixo iii a história é mais dura. A razão IRF/IRE caiu de forma sistemática em quase toda a distribuição, com intensidade máxima exatamente onde o crédito longo já era mais escasso, e só uma faixa intermediária superior escapou.
 
@@ -2018,9 +2316,78 @@ As duas leituras se encaixam no argumento pós-keynesiano sobre finanças region
 
 ## Estudos de caso territoriais {#sec-casos}
 
-Os modelos das seções anteriores trabalham com a média de 3.666 municípios. A regressão quantílica refinou essa média mostrando como o efeito muda ao longo da distribuição, mas cada município continua aparecendo como um ponto isolado em meio à nuvem. Para entender o que essas estimativas significam no concreto, os próximos quatro casos descem ao território. Cada um foi escolhido para representar um nível diferente de centralidade financeira em Minas Gerais: a metrópole consolidada (Belo Horizonte), uma cidade média de centralidade regional (Juiz de Fora), um polo industrial da Região Metropolitana de Belo Horizonte (Betim) e uma periferia rural no Vale do Jequitinhonha (Almenara). Manter os quatro municípios no mesmo estado evita ruído de comparação interestadual. O banco estadual de fomento é o mesmo (BDMG), as séries auxiliares de PIB municipal e IDHM saem das mesmas fontes, e a regulação ambiental e tributária estadual também não muda.
+Os modelos das seções anteriores trabalham com a média de 3.666 municípios. A regressão quantílica refinou essa média mostrando como o efeito muda ao longo da distribuição, mas cada município continua aparecendo como um ponto isolado em meio à nuvem. Para entender o que essas estimativas significam no concreto, os próximos quatro casos descem ao território. Cada um foi escolhido para representar um nível diferente de centralidade financeira em Minas Gerais: a metrópole consolidada (Belo Horizonte), uma cidade média de centralidade regional (Juiz de Fora), um polo industrial da Região Metropolitana de Belo Horizonte (Betim) e uma periferia rural no Vale do Jequitinhonha (Almenara). Os quatro percorrem o eixo centro–periferia que organiza a leitura pós-keynesiana da geografia financeira: no centro, o mercado bancário é denso e diversificado, a incerteza informacional sobre o tomador é menor e a preferência pela liquidez dos bancos afrouxa; na periferia ocorre o inverso, e é ali que a retração da agência física tende a se converter em contração mais dura do crédito de longo prazo. Ler os casos nessa ordem permite observar se o efeito do gradiente de exposição se intensifica à medida que se desce do centro para a margem. Manter os quatro municípios no mesmo estado evita ruído de comparação interestadual. O banco estadual de fomento é o mesmo (BDMG), as séries auxiliares de PIB municipal e IDHM saem das mesmas fontes, e a regulação ambiental e tributária estadual também não muda.
 
 A estrutura de cada caso é igual: caracterização do município, leitura da trajetória 2009–2023 dos indicadores, comparação entre o que o modelo da @sec-modelos previa e o que de fato aconteceu, e leitura do contexto institucional. A síntese comparativa fica para o fim da seção.
+
+A @fig-mapa-mg situa os quatro casos no estado. As camadas são as mesmas da @fig-mapa-brasil, com uma troca: no lugar do IRC, a cor passa a ser a razão IRF/IRE de 2022, o peso do financiamento de longo prazo frente ao empréstimo de curto prazo, que é o desfecho de qualidade do crédito estimado em @sec-modelos e decomposto em @sec-quantilica. Os círculos seguem sendo o estoque de agências.
+
+```{r}
+#| label: fig-mapa-mg
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: "Geografia bancária de Minas Gerais em 2022: razão IRF/IRE por município, estoque de agências e localização dos quatro estudos de caso"
+#| fig-width: 7
+#| fig-height: 5.4
+
+casos_mapa <- data.frame(
+  cod_mun_ibge = c("3106200", "3106705", "3136702", "3101706"),
+  nome = c("Belo Horizonte", "Betim", "Juiz de Fora", "Almenara"),
+  dx   = c(0.55, -0.55, 0.40, 0.45),
+  dy   = c(0.40, -0.35, -0.50, 0.30),
+  hj   = c(0, 1, 0, 0),
+  stringsAsFactors = FALSE
+)
+
+mapa_mg <- ind |>
+  filter(ano == 2022, substr(cod_mun_ibge, 1, 2) == "31") |>
+  mutate(
+    com_agencia = n_agencias > 0,
+    razao_mapa  = ifelse(com_agencia & IRE > 0, IRF / IRE, NA_real_)
+  )
+mapa_mg$classe <- quintis_mapa(mapa_mg$razao_mapa, mapa_mg$com_agencia)
+
+poly_mg <- mapas$mun |>
+  filter(substr(cod_mun_ibge, 1, 2) == "31") |>
+  left_join(mapa_mg |> select(cod_mun_ibge, classe), by = "cod_mun_ibge")
+
+pts_mg <- mapas$cent |>
+  inner_join(
+    mapa_mg |> filter(com_agencia) |>
+      transmute(cod_mun_ibge, faixa = faixas_agencias(n_agencias)),
+    by = "cod_mun_ibge"
+  ) |>
+  arrange(faixa)
+
+rot_mg <- mapas$cent |> inner_join(casos_mapa, by = "cod_mun_ibge")
+
+ggplot() +
+  geom_polygon(data = poly_mg, aes(long, lat, group = grp, fill = classe),
+               colour = "white", linewidth = 0.06) +
+  geom_point(data = pts_mg, aes(long, lat, size = faixa),
+             colour = cor_agencia, alpha = 0.55, stroke = 0) +
+  geom_point(data = rot_mg, aes(long, lat), shape = 21, size = 2.6,
+             fill = NA, colour = "black", stroke = 0.6) +
+  geom_segment(data = rot_mg,
+               aes(x = long, y = lat, xend = long + dx, yend = lat + dy),
+               linewidth = 0.3) +
+  geom_text(data = rot_mg, aes(long + dx, lat + dy, label = nome, hjust = hj),
+            family = "serif", size = 2.7, vjust = -0.25) +
+  escala_fill_mapa(mapa_mg$classe, "IRF/IRE (quintis)") +
+  scale_size_manual(values = c(0.35, 0.7, 1.3, 2.2, 3.4), name = "Agências") +
+  guides(fill = guide_legend(order = 1),
+         size = guide_legend(order = 2, override.aes = list(alpha = 0.7))) +
+  rosa_dos_ventos(-40.6, -22.9, 0.55) +
+  barra_escala(-51.2, -22.9, 200, -20) +
+  coord_quickmap() +
+  labs(caption = fonte_mapa) +
+  tema_mapa
+```
+
+Dos 853 municípios mineiros, 419 (49,1%) não tinham agência em 2022, proporção acima da média nacional de 43,8%. A mediana estadual da razão IRF/IRE, 0,076, fica abaixo da brasileira, 0,102. Mesmo em um estado com banco de fomento próprio, portanto, o financiamento de longo prazo responde por parcela pequena do crédito local.
+
+Os quatro casos ocupam posições bem diferentes nesse quadro. Belo Horizonte reúne 314 agências e razão de 0,52, quase sete vezes a mediana estadual. Juiz de Fora, com 46 agências e razão de 0,24, é o nó intermediário do sudeste mineiro. Betim tem 16 agências e um parque industrial de peso, mas IRC de 0,12 e razão de 0,19: periferia financeira dentro da própria região metropolitana. Almenara opera com 5 agências no Baixo Jequitinhonha, cercada por municípios sem cobertura bancária alguma, e ainda assim registra IRC de 1,10, a função de polo microrregional que @sec-caso-almenara examina.
 
 ```{r}
 #| label: setup-casos
@@ -2461,6 +2828,114 @@ A interpretação institucional, como nos casos anteriores, é hipotética. Alme
 
 Almenara fecha o gradiente dos quatro casos. Em BH, a capital perdeu cobertura mas ganhou centralidade relativa pelo recuo do entorno. Em Betim, o polo industrial perdeu mais cobertura sem nunca ter tido base institucional financeira para sustentar a função local. Em JF, a cidade média reteve a função financeira regional pela combinação de porte populacional e de âncoras institucionais. Em Almenara, o município pequeno manteve cobertura estável mas viu a qualidade do crédito cair, sustentado por uma base de função financeira pública vinculada à transferência de renda e ao crédito rural direcionado. O conjunto dos quatro casos confirma que o efeito médio dos modelos econométricos esconde trajetórias bastante distintas, e que a leitura adequada do choque digital depende do tipo de função financeira que cada município exerce na escala territorial em que está inserido.
 
+### Síntese comparativa: posição dos casos no plano centralidade--qualidade {#sec-sintese-casos}
+
+Os quatro casos foram lidos um a um. Falta situá-los no conjunto. Os desfechos que organizam o Eixo ii e o Eixo iii cabem em um único plano: no eixo horizontal, a razão IRF/IRE, que mede a qualidade do crédito local pelo peso do financiamento de longo prazo frente ao empréstimo de curto prazo; no eixo vertical, o IRC, que mede a centralidade creditícia do município frente à sua participação no produto. A @fig-quadrantes cruza os dois para os municípios brasileiros com presença bancária em 2022. As linhas tracejadas marcam as medianas e dividem o plano em quatro quadrantes. O primeiro, no canto superior direito e destacado em tom claro, reúne quem combina centralidade e crédito longo acima da mediana, a posição desejável sob o referencial pós-keynesiano adotado aqui. A linha pontilhada horizontal marca $IRC = 1$, patamar em que a participação do município no crédito nacional iguala sua participação no PIB. Os dois eixos estão em escala logarítmica; sem ela, a assimetria das distribuições empilharia a nuvem em um canto só.
+
+```{r}
+#| label: fig-quadrantes
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: "Municípios brasileiros com presença bancária no plano IRF/IRE × IRC (2022). Linhas tracejadas: medianas de cada indicador. Rótulos: três melhores e três piores posições no plano, os quatro municípios dos estudos de caso e São Paulo"
+#| fig-width: 7
+#| fig-height: 6.2
+
+quadrantes <- ind |>
+  filter(ano == 2022, n_agencias > 0, IRF > 0, IRE > 0, IRC > 0) |>
+  transmute(cod_mun_ibge, nome = nome_municipio, uf = sigla_uf,
+            IRC, razao = IRF / IRE) |>
+  filter(is.finite(razao))
+
+med_x <- median(quadrantes$razao)
+med_y <- median(quadrantes$IRC)
+
+# Posição no plano: média dos escores padronizados dos dois indicadores em log.
+# Serve apenas para selecionar os extremos rotulados na figura.
+quadrantes <- quadrantes |>
+  mutate(
+    quadrante = case_when(
+      razao >= med_x & IRC >= med_y ~ "I",
+      razao <  med_x & IRC >= med_y ~ "II",
+      razao <  med_x & IRC <  med_y ~ "III",
+      TRUE                          ~ "IV"),
+    posicao = as.numeric(scale(log10(IRC))) + as.numeric(scale(log10(razao)))
+  )
+
+# Deslocamentos manuais dos rótulos, para evitar sobreposição.
+offsets <- data.frame(
+  nome = c("Tangará da Serra", "Querência", "Chapadão do Sul",
+           "São Francisco do Conde", "Autazes", "Porto Calvo",
+           "Belo Horizonte", "Almenara", "Juiz de Fora", "Betim", "São Paulo"),
+  hj = c(1.12, 1.12, 1.12, -0.12, -0.12, -0.12, 1.12, 1.12, 1.12, 1.12, -0.15),
+  vj = c(0.40, 0.40, 0.40, 0.40, 0.40, 0.40, 0.40, -1.00, 1.90, 0.40, 0.40),
+  stringsAsFactors = FALSE
+)
+
+destaques <- bind_rows(
+  quadrantes |> slice_max(posicao, n = 3) |> mutate(tipo = "3 melhores posições"),
+  quadrantes |> slice_min(posicao, n = 3) |> mutate(tipo = "3 piores posições"),
+  quadrantes |> filter(cod_mun_ibge %in% casos_mapa$cod_mun_ibge) |>
+    mutate(tipo = "Estudos de caso"),
+  quadrantes |> filter(cod_mun_ibge == "3550308") |>
+    mutate(tipo = "Maior mercado bancário")
+) |>
+  left_join(offsets, by = "nome") |>
+  mutate(rotulo = paste0(nome, " (", uf, ")"),
+         tipo = factor(tipo, levels = c("3 melhores posições", "3 piores posições",
+                                        "Estudos de caso", "Maior mercado bancário")))
+
+n_quad  <- table(quadrantes$quadrante)
+lim_x   <- range(quadrantes$razao)
+lim_y   <- range(quadrantes$IRC)
+canto   <- function(x, y, q, hj, vj) {
+  annotate("text", x = x, y = y, label = paste0(q, " (n = ", n_quad[q], ")"),
+           family = "serif", size = 3, hjust = hj, vjust = vj, colour = "grey25")
+}
+
+ggplot(quadrantes, aes(razao, IRC)) +
+  annotate("rect", xmin = med_x, xmax = Inf, ymin = med_y, ymax = Inf,
+           fill = "#2A9D8F", alpha = 0.07) +
+  geom_point(aes(colour = quadrante), size = 0.55, alpha = 0.35, stroke = 0) +
+  geom_vline(xintercept = med_x, linetype = "dashed", colour = "grey35",
+             linewidth = 0.4) +
+  geom_hline(yintercept = med_y, linetype = "dashed", colour = "grey35",
+             linewidth = 0.4) +
+  geom_hline(yintercept = 1, linetype = "dotted", colour = "grey55",
+             linewidth = 0.35) +
+  annotate("text", x = lim_x[1], y = 1, label = "IRC = 1", family = "serif",
+           size = 2.5, colour = "grey45", hjust = 0, vjust = -0.5) +
+  geom_point(data = destaques, aes(shape = tipo, fill = tipo), size = 2.1,
+             colour = "black", stroke = 0.4) +
+  geom_text(data = destaques, aes(label = rotulo, hjust = hj, vjust = vj),
+            family = "serif", size = 2.5) +
+  canto(lim_x[2], lim_y[2], "I",   1, 1) +
+  canto(lim_x[1], lim_y[2], "II",  0, 1) +
+  canto(lim_x[1], lim_y[1], "III", 0, 0) +
+  canto(lim_x[2], lim_y[1], "IV",  1, 0) +
+  scale_x_log10(breaks = c(0.001, 0.01, 0.1, 1, 10),
+                labels = c("0,001", "0,01", "0,1", "1", "10"),
+                expand = expansion(mult = 0.05)) +
+  scale_y_log10(breaks = c(0.01, 0.1, 1, 10),
+                labels = c("0,01", "0,1", "1", "10"),
+                expand = expansion(mult = 0.05)) +
+  scale_colour_manual(values = c(I = "#2A9D8F", II = "#264653",
+                                 III = "#E76F51", IV = "#E9C46A"),
+                      guide = "none") +
+  scale_shape_manual(values = c(24, 25, 23, 22)) +
+  scale_fill_manual(values = c("#2A9D8F", "#E76F51", "white", "#264653")) +
+  labs(x = "IRF/IRE (escala logarítmica)", y = "IRC (escala logarítmica)",
+       caption = paste0("Fonte: elaboração própria a partir da ESTBAN/BCB e do PIB ",
+                        "municipal do IBGE.\nExtremos selecionados pela soma dos ",
+                        "escores padronizados de log(IRC) e log(IRF/IRE).")) +
+  tema_abnt +
+  theme(plot.caption = element_text(size = 8, hjust = 0))
+```
+
+Duas leituras apressadas caem por terra aqui. A primeira é a de que o quadrante desejável pertence às metrópoles. Dos 3.130 municípios com agência em 2022, 323 sequer aparecem no gráfico porque registraram financiamento nulo ($IRF = 0$): não há razão a calcular para quem não tem crédito longo algum, e a ausência é a forma mais extrema da exclusão qualitativa medida em @sec-quantilica. Entre os 2.807 restantes, São Paulo ocupa a posição que se esperaria da maior praça bancária do país, com IRC de 3,82 (percentil 99,9), razão IRF/IRE de 2,00 e 35,8% de todo o saldo de crédito nacional. As três melhores posições do plano, porém, são de Tangará da Serra (MT), Querência (MT) e Chapadão do Sul (MS), municípios em que o crédito rural direcionado --- custeio, investimento e comercialização --- eleva ao mesmo tempo o volume de financiamento e a participação no crédito nacional. O Centro-Oeste responde por 8,9% da amostra e por 19,6% do quadrante I; o Sudeste, por 37,1% da amostra e apenas 24,3% do quadrante. Estar no primeiro quadrante mede densidade de crédito longo em relação ao produto local, e não sofisticação ou diversificação do sistema financeiro. O quadrante III mostra o avesso disso: São Francisco do Conde (BA), sede de refinaria e um dos maiores PIB per capita do país, ocupa a pior posição do plano porque produz muito e retém quase nada de crédito. É a drenagem financeira de @crocco2006a em estado quase puro.
+
+A outra é sobre os próprios casos, que se distribuem de maneira menos óbvia do que a ordem centro--periferia da seção sugeriria. Belo Horizonte, Juiz de Fora e Almenara caem no quadrante I, com IRC de 2,62, 0,76 e 1,10 e razões IRF/IRE de 0,52, 0,24 e 0,19. Betim é o único dos quatro fora dele: o IRC de 0,12 o joga no quadrante IV, onde a carteira tem qualidade acima da mediana e a centralidade creditícia fica muito abaixo. O diagnóstico de @sec-caso-betim, construído ali por outro caminho, reaparece aqui em forma descritiva: um polo industrial de produto alto cujo sistema bancário local não retém função financeira proporcional. O par Betim--Almenara é o mais desconfortável do conjunto. O município de 5 agências no Baixo Jequitinhonha ocupa posição melhor no plano do que o de 16 agências da Região Metropolitana de Belo Horizonte. Cobertura física e função financeira são, portanto, dimensões distintas, e a digitalização mexe em cada uma por caminhos diferentes. Minas Gerais, no conjunto, aparece deslocada para a esquerda do plano: dos 403 municípios mineiros representados, 270 (67%) estão nos quadrantes II e III, abaixo da mediana nacional de IRF/IRE, o que dá sustentação descritiva à escassez estrutural de crédito longo já visível na @fig-mapa-mg.
+
 ## Simulações contrafactuais e implicações regulatórias {#sec-contrafactuais}
 
 O DiD contínuo mostrou que o choque comprimiu o estoque de agências e deteriorou a qualidade do crédito, mas produziu efeito médio nulo sobre a centralidade financeira. O SLX mostrou que esses efeitos são deslocados no espaço: o que um município perde, seus vizinhos ganham em centralidade. A decomposição quantílica mostrou que a queda do crédito de longo prazo atinge tanto os municípios que já tinham pouco quanto os que estavam no topo da distribuição. Os estudos de caso da @sec-casos mostraram que trajetórias muito distintas convivem sob o mesmo coeficiente médio, e que o caminho importa: porte, autonomia regional e dependência da infraestrutura física se combinam de jeitos diferentes em cada território.
@@ -2511,23 +2986,37 @@ A coordenação entre regulação bancária, infraestrutura digital e desenvolvi
 
 Esta dissertação investigou como a digitalização do sistema financeiro brasileiro redefiniu as desigualdades regionais no país, com foco nas transformações qualitativas do crédito entre 2009 e 2023. O referencial pós-keynesiano que trata moeda e variáveis financeiras como forças ativas do desenvolvimento territorial [@crocco2006a; @amado2006] orientou a pesquisa em três eixos: a reconfiguração espacial das redes bancárias, o viés metropolitano da digitalização e os efeitos assimétricos da concentração de agências sobre disponibilidade, diversidade e qualidade do crédito.
 
-O primeiro capítulo passou pela literatura em quatro blocos: a teoria da hierarquia financeira e seus impactos regionais, os efeitos da reestruturação bancária, a dialética da digitalização e as lacunas empíricas que ficaram em aberto. A tradição brasileira representada por @crocco2012 e @cavalcante2016 já havia documentado o peso da concentração espacial de serviços financeiros sobre a preferência pela liquidez regional, mas não tinha incorporado a digitalização como variável capaz de mudar a natureza da intermediação. A literatura internacional trazia evidência de que a substituição de canais presenciais por plataformas digitais é territorialmente assimétrica [@leyshon2008; @nguyen2019], mas esses achados nunca haviam sido testados em escala municipal no Brasil com indicadores capazes de separar volume de qualidade de crédito.
+O primeiro capítulo passou pela literatura em quatro blocos: a teoria da hierarquia financeira e seus impactos regionais, os efeitos da reestruturação bancária, a dialética da digitalização e as lacunas empíricas que ficaram em aberto. Dessa revisão, discutida em detalhe naquele capítulo, ficou uma lacuna precisa: a tradição pós-keynesiana brasileira já havia documentado o peso da concentração espacial de serviços financeiros sobre a preferência pela liquidez regional, mas não tinha incorporado a digitalização como variável capaz de mudar a natureza da intermediação; e a evidência internacional sobre a assimetria territorial da substituição de canais presenciais nunca havia sido testada em escala municipal no Brasil com indicadores capazes de separar volume de qualidade de crédito. Foi essa lacuna que a dissertação se propôs a preencher.
 
 O segundo capítulo montou a base empírica. Integrou ESTBAN, Pesquisas FEBRABAN, PIB municipal do IBGE e dados georreferenciados de agências para construir doze indicadores anuais para 5.570 municípios, de 2009 a 2023. Os indicadores cobrem preferência pela liquidez (PLP, PLB), centralidade financeira (IRC, ICO, ICB) e qualidade e condições do crédito (IRF/IRE, IRR, IRL, IRD), além de cobertura física (estoque de agências, crédito/PIB). É um conjunto de métricas que não existia na literatura nacional e que permitiu testar, pela primeira vez, se a digitalização afetou de forma diferente o volume e a qualidade do sistema financeiro territorial.
 
 O terceiro capítulo, núcleo da dissertação, operou em três frentes.
 
-A frente quantitativa produziu cinco resultados. A datação do choque por Bai-Perron e Quandt-Andrews confirmou $t^\ast = 2020$ como quebra dominante nas séries de penetração e uso do Mobile Banking. Quebras secundárias apareceram em três janelas: 2014–2016 (transição IB→MB e crise institucional), 2018–2019 (período pré-pandemia) e 2020–2021 (COVID e Pix). O DiD com tratamento contínuo mostrou que cada desvio-padrão adicional de exposição $E_i$ reduz o log do estoque de agências em $1{,}6\%$ e a razão IRF/IRE em $0{,}022$ (p $<$ 0{,}001), sem efeito significativo sobre o IRC. O choque comprime cobertura física e deteriora crédito de longo prazo, mas não altera a centralidade média. O SLX-DiD encontrou um padrão que se repete nos quatro desfechos centrais: efeito direto e spillover têm sinais opostos. O que um município perde em agências e qualidade de crédito, seus vizinhos ganham em centralidade. É um deslocamento territorial que o DiD tradicional, focado na média, não captura. A decomposição por porte mostrou que o fechamento de agências bate mais forte nas cidades médias do terceiro quartil de PIB (R\$ 500 milhões a R\$ 2 bilhões), que têm PIB relevante mas mercado bancário menos diversificado que o das metrópoles. A mediação causal encontrou um *suppression effect*: a digitalização reduziu a qualidade do crédito por um canal que não passa pela quantidade de agências. A transformação qualitativa da carteira (migração para modalidades curtas e padronizadas) é o mecanismo dominante, não a extinção do ponto físico.
+A frente quantitativa produziu cinco resultados. A datação do choque por Bai-Perron e Quandt-Andrews confirmou $t^\ast = 2020$ como quebra dominante nas séries de penetração e uso do Mobile Banking. Quebras secundárias apareceram em três janelas: 2014–2016 (transição IB→MB e crise institucional), 2018–2019 (período pré-pandemia) e 2020–2021 (COVID e Pix). O DiD com tratamento contínuo mostrou que cada desvio-padrão adicional de exposição $E_i$ reduz o log do estoque de agências em $1{,}6\%$ e a razão IRF/IRE em $0{,}022$ (p $<$ 0{,}001), sem efeito significativo sobre o IRC. O choque comprime cobertura física e deteriora crédito de longo prazo, mas não altera a centralidade média. O SLX-DiD encontrou um padrão que se repete nos quatro desfechos centrais: efeito direto e spillover têm sinais opostos. O que um município perde em agências e qualidade de crédito, seus vizinhos ganham em centralidade. É um deslocamento territorial que o DiD tradicional, focado na média, não captura.
+
+A decomposição por porte mostrou que o fechamento de agências bate mais forte nas cidades médias do terceiro quartil de PIB (R\$ 500 milhões a R\$ 2 bilhões), que têm PIB relevante mas mercado bancário menos diversificado que o das metrópoles. A mediação causal encontrou um *suppression effect*: a digitalização reduziu a qualidade do crédito por um canal que não passa pela quantidade de agências. A transformação qualitativa da carteira (migração para modalidades curtas e padronizadas) é o mecanismo dominante, não a extinção do ponto físico.
 
 A frente qualitativa ancorou esses resultados em quatro estudos de caso em Minas Gerais. Belo Horizonte perdeu 33% das agências entre 2014 e 2022, mas ganhou 47% em IRC porque o entorno perdeu mais. Betim, polo industrial da RMBH com PIB de R\$ 20 bilhões mas sem base financeira própria, perdeu 36% das agências e viu seu IRC cair 70%. Juiz de Fora, cidade média com 540 mil habitantes e instituições como a UFJF, perdeu 21% das agências e manteve o IRC estável. Almenara, polo do Baixo Jequitinhonha com 40 mil habitantes, manteve 5 agências durante todo o período por meio de bancos públicos, mas viu o IRF/IRE cair 43%. O gradiente dos quatro casos mostrou que o coeficiente médio da regressão esconde trajetórias radicalmente diferentes, e que o efeito do choque depende do tipo de função financeira que cada município exerce na escala territorial em que opera.
 
 A frente normativa traduziu os coeficientes em três cenários contrafactuais: redução de 50% no fechamento de agências, homogeneização da exposição digital e piso de uma agência por município. Desses exercícios saíram três recomendações: migrar a regulação de quantidade de agências para funções financeiras mantidas no território, calibrar instrumentos de crédito conforme a heterogeneidade espacial, e coordenar política bancária, infraestrutura digital e desenvolvimento regional.
 
+As cinco hipóteses que organizaram o Capítulo 3 merecem um balanço à luz do que a evidência mostrou. Interessa menos o veredito de cada uma e mais os pontos em que os dados sustentaram a conjectura inicial, os que a corrigiram e os que forçaram a reformulá-la. Foi nesse confronto que a pesquisa aprendeu o que não sabia ao começar.
+
+A primeira hipótese supunha uma quebra estrutural empiricamente identificável na intensidade da digitalização bancária entre 2015 e 2020, com impacto detectável sobre os indicadores municipais. A evidência a sustenta. Os testes formais de quebra localizaram 2020 como ponto de inflexão dominante nas séries de uso do Mobile Banking, e o estudo de evento mostrou que o choque deixou marca nos indicadores territoriais: a convergência intermunicipal no estoque de agências que vinha ocorrendo até 2019 congela a partir de 2020. O que os dados acrescentaram à hipótese foi a constatação de que o choque não é um ponto único, mas uma sequência de rupturas encadeadas (2014–2016, 2018–2019 e 2020–2021). Essa multiplicidade é o que impõe a cautela de identificação temporal discutida adiante: parte do que se atribui à digitalização convive com rupturas institucionais que uma data única de tratamento não separa por completo.
+
+A segunda hipótese previa que o efeito da digitalização sobre o fechamento de agências seria maior nos municípios com alta dependência inicial de canais físicos e baixa centralidade financeira. Aqui a evidência confirma a direção e desmente a forma. No agregado, cada desvio-padrão adicional de exposição reduz o estoque de agências, exatamente como a hipótese esperava. Mas a decomposição por porte revelou que essa contração não é monotônica na dependência física: ela se concentra nas duas pontas da distribuição, nas metrópoles por substituição ativa pela digitalização avançada e nas pequenas por inviabilidade econômica da agência, enquanto as cidades médio-grandes, que operam como hubs regionais, preservaram melhor a rede. A conclusão que daí se extrai é que a dependência de canais físicos não se traduz em perda de agências de modo linear. O que decide o desfecho é a função que a agência cumpre no território, e não apenas o quanto o município dependia dela no ponto de partida.
+
+A terceira hipótese, a de que a digitalização aprofunda o viés metropolitano, é a que sai mais fortalecida da análise. A centralidade financeira caiu mais nas três faixas inferiores de porte do que nas metrópoles, e o modelo espacial trouxe a peça decisiva: efeito direto e spillover têm sinais opostos. O que um município perde, sua vizinhança mais central ganha. Não se trata apenas de um declínio diferenciado entre faixas, como a hipótese original supunha, mas de uma transferência territorial identificável, um sistema de vasos comunicantes em que a centralidade sugada das periferias reaparece nos polos adjacentes. Aqui os dados foram além do que a hipótese previa e lhe deram um mecanismo espacial explícito. É, provavelmente, o resultado mais robusto da dissertação.
+
+A quarta hipótese defendia um efeito assimétrico da digitalização sobre a qualidade do crédito, com serviços bancários complexos concentrando-se ainda mais nos centros. A separação entre volume e qualidade (IRF/IRE), é justamente o que valida essa hipótese. O efeito médio sobre a centralidade agregada ficou próximo de zero, mas o crédito de longo prazo se concentrou nos grandes centros e recuou nas periferias, o portfólio local ficou mais concentrado em poucas modalidades, e a regressão quantílica mostrou que, onde o crédito de longo prazo já era escasso, o choque aprofundou a escassez.
+
+A quinta hipótese sustentava que parte substancial do efeito da digitalização sobre o crédito periférico operaria através do fechamento de agências, um canal de mediação entre tecnologia e território. A análise de mediação encontrou um efeito de supressão: na subamostra em que a qualidade do crédito é observável, o canal dominante é o direto, tecnológico, e não o fechamento de agências. O elo estrutural entre agência e crédito longo se confirma com força, mas ele só é decisivo no segmento mais vulnerável da distribuição, precisamente aquele que a restrição amostral exclui da especificação. A conclusão que os dados impuseram é que a agência não é um elo causal universal: seu papel mediador é, ele próprio, territorialmente heterogêneo. No fundo da distribuição, a digitalização derruba a qualidade do crédito porque fecha agências; no segmento consolidado, ela a derruba por uma via tecnológica autônoma que dispensa o fechamento. Na formulação original, a hipótese vale para as periferias mais frágeis, não para todo o território.
+
+Lidas em conjunto, as cinco hipóteses convergem para uma tese só: a digitalização financeira não é territorialmente neutra. O que a pesquisa efetivamente aprendeu, porém, está menos no fato de quatro delas terem se sustentado e mais nos pontos em que a evidência obrigou a abandonar a linearidade e a uniformidade das formulações iniciais. O fechamento de agências não segue a dependência física ponto a ponto. A deterioração do crédito não vem de um canal só. E o empobrecimento das periferias não é subtração pura: o que sai delas reaparece nos centros. Foi ao desmontar essas suposições de uniformidade que a dissertação saiu de uma intuição sobre desigualdade regional e chegou a um mapa de como ela se reorganiza sob o choque digital.
+
 O trabalho deixa algumas contribuições. A primeira é a própria base de dados: um painel de indicadores financeiros municipais de 2009 a 2023, integrando fontes que antes eram usadas separadamente. A segunda é analítica: a decomposição do efeito da digitalização em canal direto, canal mediado e spillovers espaciais, combinada com a decomposição quantílica, mostrou que quantidade de agências e qualidade do crédito se descolaram na última década. O efeito médio do OLS não permitia ver esse descolamento. A terceira é empírica: a digitalização financeira não é territorialmente neutra. Seus efeitos variam conforme porte, posição na hierarquia urbana e base institucional de cada lugar. A quarta é aplicada: o mapeamento entre coeficientes estimados e instrumentos de política oferece subsídios regulatórios ancorados em resultados quantificados, e não em diagnósticos genéricos.
 
-A dissertação tem limitações que precisam ser ditas.
-
-A primeira é de dados. A série FEBRABAN é nacional, sem desagregação subnacional. A estratégia de identificação depende inteiramente da variação cross-section da exposição ex-ante. O estoque de agências para 2023 está subnotificado na base utilizada, e as análises de cobertura física foram truncadas em 2022. Não existem dados municipais de taxas de juros, prazos ou inadimplência por modalidade. A proxy de qualidade do crédito é o IRF/IRE, e não há como testar diretamente se o custo do crédito subiu nas periferias. A queda do IRF/IRE, documentada em todos os modelos do capítulo 3, é interpretada ao longo da dissertação como evidência de contração da oferta de crédito de longo prazo pelos bancos. Mas a ESTBAN registra saldos contábeis, não operações novas, e não permite distinguir se a razão caiu porque os bancos reduziram a oferta de financiamento ou porque a demanda mudou: empresas periféricas podem ter fechado ou migrado para centros maiores, e pessoas físicas podem ter aumentado a tomada de crédito de curto prazo (consignado, cartão, pessoal) independentemente da oferta de longo prazo. Não há dados municipais sobre tentativas de empréstimo ou financiamento recusadas, nem sobre o número ou o perfil dos tomadores por modalidade. Sem esse contraponto, a direção da causalidade na margem de crédito permanece ambígua. As Pesquisas FEBRABAN se baseiam em autorrelato.
+A dissertação tem limitações que precisam ser ditas: A primeira é de dados. A série FEBRABAN é nacional, sem desagregação subnacional. A estratégia de identificação depende inteiramente da variação *cross-section* da exposição *ex-ante*. O estoque de agências para 2023 está subnotificado na base utilizada, e as análises de cobertura física foram truncadas em 2022. Não existem dados municipais de taxas de juros, prazos ou inadimplência por modalidade. A proxy de qualidade do crédito é o IRF/IRE, e não há como testar diretamente se o custo do crédito subiu nas periferias. A queda do IRF/IRE, documentada em todos os modelos do capítulo 3, é interpretada ao longo da dissertação como evidência de contração da oferta de crédito de longo prazo pelos bancos. Mas a ESTBAN registra saldos contábeis, não operações novas, e não permite distinguir se a razão caiu porque os bancos reduziram a oferta de financiamento ou porque a demanda mudou: empresas periféricas podem ter fechado ou migrado para centros maiores, e pessoas físicas podem ter aumentado a tomada de crédito de curto prazo (consignado, cartão, pessoal) independentemente da oferta de longo prazo. Não há dados municipais sobre tentativas de empréstimo ou financiamento recusadas, nem sobre o número ou o perfil dos tomadores por modalidade. Sem esse contraponto, a direção da causalidade na margem de crédito permanece ambígua. As Pesquisas FEBRABAN se baseiam em autorrelato.
 
 A segunda limitação está na identificação temporal. O Bai-Perron apontou 2020 como quebra dominante, mas também detectou quebras em 2014–2016 e 2018–2019. A janela de 2015–2016 coincide com a crise política que culminou no impeachment de Dilma Rousseff e com a inflexão da política econômica que se seguiu [@bastos2017; @oreiro2017]. Nesse período, a Lei das Estatais (Lei nº 13.303/2016) reestruturou a governança dos bancos públicos federais cujo papel central na expansão do crédito havia sido documentado por @paula2013. A janela de 2018–2019, por sua vez, precede a pandemia e coincide com a agenda de liberalização do governo Bolsonaro, que incluiu a Lei da Liberdade Econômica (Lei nº 13.874/2019) e a Agenda BC#, iniciativa do Banco Central voltada a ampliar a competição e a digitalização do sistema financeiro ainda em 2019. Visualmente, os quatro municípios de @sec-casos exibem inflexões em mais de uma dessas janelas: em BH, o IRF/IRE atinge o pico em 2015 e começa a cair em 2016–2017; em Almenara, o IRC salta para 1,31 em 2014 e recua a partir de 2016; em Betim, a queda de agências se acentua a partir de 2017. O choque de 2020 operou sobre um território que já estava em movimento. Os efeitos atribuídos aqui à digitalização podem conter um componente de ruptura institucional e reorientação regulatória que uma data única de tratamento não separa. Separar esses efeitos exigiria uma estratégia com múltiplas datas de tratamento ou um estudo de evento com quebras endógenas, fora do escopo deste trabalho.
 
