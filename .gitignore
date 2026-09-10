@@ -46,6 +46,7 @@ thesis/index.pdf
 thesis/index.tex
 presentation/defesa.pdf
 presentation/defesa_files/
+presentation/.cache-figuras/
 
 # Data — gitignored (large; replicated via R/01_*.R from public sources)
 data/raw/*.xlsx
