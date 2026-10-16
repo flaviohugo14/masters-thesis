@@ -1,10 +1,19 @@
 ---
 title: "Digitalização Bancária e Assimetrias Regionais no Brasil: Reconfiguração das Redes de Agências, Qualidade do Crédito e Deslocamento Espacial (2009–2023)"
-# Versão anonimizada para submissão ao Prêmio FEBRABAN.
-# Autoria, orientação, banca e instituição foram suprimidas do texto e dos
-# metadados do PDF conforme o regulamento do concurso.
+author: "Flávio Hugo Pangracio Silva"
+author-upper: "FLÁVIO HUGO PANGRACIO SILVA"
+advisor: "Prof. Dr. Marco Aurélio Crocco Afonso"
+institution: "UNIVERSIDADE FEDERAL DE MINAS GERAIS"
+city: "Belo Horizonte"
+state: "MG"
 year: "2026"
+confirm_text: "Dissertação apresentada ao curso de Mestrado em Economia do Centro de Desenvolvimento e Planejamento Regional da Faculdade de Ciências Econômicas da Universidade Federal de Minas Gerais, como requisito parcial à obtenção do Título de Mestre em Economia."
 keywords: "Centralidade; Sistema Financeiro; Economia Regional e Urbana."
+dedication: "A quem chegará depois destas páginas, e para quem escrevi sem ainda saber o nome - que o mundo que encontrares seja mais justo do que o que aqui descrevo."
+confirm_date: "10/08/2026"
+examiner1: "Igor Santos Tupy"
+examiner2: "Frederico Gonzaga Jayme Jr"
+advisor-name: "Marco Aurélio Crocco Afonso"
 bibliography: references/ref.bib
 csl: csl/abnt.csl
 number-sections: true
@@ -259,7 +268,7 @@ A Figura \ref{fig-organograma} traz esse caminho inteiro em um só diagrama: das
       georreferenciamento (lat/long) $\rightarrow$
       união por código IBGE + CNPJ $\rightarrow$ validação};
 \node[chip, below=2mm of p1, text width=14.4cm, fill=corCap2!55] (p2)
-     {\textbf{Base georreferenciada município--ano} \; \scriptsize(depositada em repositório público)};
+     {\textbf{Base georreferenciada município--ano} \; \scriptsize(disponibilizada na OSF)};
 \begin{scope}[on background layer]
   \node[banda, draw=corCap2b, fill=corCap2, fit=(t2)(p1)(p2)] (B2) {};
 \end{scope}
@@ -359,7 +368,7 @@ Para unificar as diferentes fontes, foi desenvolvido um script em Python, que au
 
 5. Validação e consistência: verificações foram realizadas para garantir a coerência dos dados, eliminando duplicatas, inconsistências e registros incompletos.
 
-Essa integração resulta em uma base de dados robusta e georreferenciada, que serve de base para a construção dos indicadores financeiros, índices de concentração e centralidade, bem como para as análises multivariadas subsequentes. Os dados consolidados e os scripts de replicação estão em repositório público. O endereço foi omitido nesta versão para preservar o anonimato da avaliação.
+Essa integração resulta em uma base de dados robusta e georreferenciada, que serve de base para a construção dos indicadores financeiros, índices de concentração e centralidade, bem como para as análises multivariadas subsequentes. Os dados consolidados e os scripts de replicação estão disponíveis na Open Science Framework (OSF): https://osf.io/9gbh3/.
 
 ## Construção dos Indicadores Financeiros e de Liquidez
 
