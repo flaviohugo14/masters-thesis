@@ -1,18 +1,5 @@
 #!/usr/bin/env Rscript
-# 08_quantilica.R
-# Regressão quantílica em painel via Canay (2011) two-step:
-#   Step 1: feols com EF de município e ano para identificar shifters location
-#   Step 2: rq sobre y_tilde = y - alpha_i - lambda_t para cada quantil tau
-# SE por bootstrap de blocos por município (B = 200).
-#
-# Outcomes: IRC e IRF/IRE.
-# Quantis: 10, 25, 50, 75, 90.
-# Spec:    Y_it = alpha_i + lambda_t + beta_tau (Post*Exp) + gamma_tau ln(pib) + e_it
-# Janela:  2014–2023 (sem truncamento de 2022, pois IRC e IRF/IRE são confiáveis até 2023).
-#
-# Pré-requisito: install.packages("quantreg")
-#
-# Saída: data/cache/quantilica.rds
+# Regressão quantílica em painel para IRC e IRF/IRE.
 
 suppressPackageStartupMessages({
   library(dplyr)
@@ -23,12 +10,8 @@ suppressPackageStartupMessages({
 set.seed(20260503)
 B <- 200
 
-# ---- 1. Painel e exposição (idêntico aos scripts 06/07) ----
-ind <- read.csv("data/processed/indicadores_financeiros_basedosdados.csv")
+ind <- read.csv("data/processed/indicadores_financeiros_consolidados.csv")
 
-# Cobertura canônica idêntica à de main.qmd §3.2 (sec-exposicao):
-# agregação por município das médias 2009-2013 (sem filtrar linhas zero antes
-# de agregar) e filtragem do município pelo n_ag médio > 0.
 pre_2013 <- ind |>
   filter(ano >= 2009, ano <= 2013) |>
   group_by(cod_mun_ibge) |>
@@ -71,7 +54,6 @@ outcomes <- list(IRC = "IRC", IRF_IRE = "IRF_IRE")
 taus     <- c(0.10, 0.25, 0.50, 0.75, 0.90)
 tau_lab  <- paste0("tau_", sub("0\\.", "", sprintf("%.2f", taus)))
 
-# ---- 2. Canay (2011) two-step ----
 canay_rq <- function(d, yvar, taus) {
   d <- d[is.finite(d[[yvar]]), , drop = FALSE]
   d$y         <- d[[yvar]]
@@ -99,7 +81,6 @@ ols_fe_coef <- function(d, yvar) {
   c(est = as.numeric(cf), se = as.numeric(se))
 }
 
-# ---- 3. Bootstrap de blocos por município ----
 boot_canay <- function(d, yvar, taus, B = 200) {
   d      <- as.data.frame(d)
   d      <- d[is.finite(d[[yvar]]), , drop = FALSE]
@@ -136,7 +117,6 @@ boot_canay <- function(d, yvar, taus, B = 200) {
        boot    = boot_mat)
 }
 
-# ---- 4. Loop principal ----
 res <- list()
 for (nm in names(outcomes)) {
   yv <- outcomes[[nm]]
@@ -153,7 +133,6 @@ for (nm in names(outcomes)) {
               res[[nm]]$ols_est, res[[nm]]$ols_se))
 }
 
-# ---- 5. Salvar ----
 dir.create("data/cache", showWarnings = FALSE, recursive = TRUE)
 saveRDS(res, "data/cache/quantilica.rds")
 cat("\nSalvo em data/cache/quantilica.rds\n")

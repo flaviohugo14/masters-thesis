@@ -1,4 +1,5 @@
 #!/usr/bin/env Rscript
+# Baixa as malhas do IBGE e salva os dados usados nos mapas.
 
 suppressPackageStartupMessages({
   library(jsonlite)

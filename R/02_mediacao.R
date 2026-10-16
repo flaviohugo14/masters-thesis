@@ -1,11 +1,5 @@
 #!/usr/bin/env Rscript
-# 06_mediacao.R
-# Análise de mediação causal (Imai-Keele-Tingley) adaptada a painel com EF.
-# Decompõe o efeito da exposição digital sobre IRF/IRE em:
-#   - canal direto (ADE = phi)
-#   - canal mediado pelo fechamento de agências (ACME = delta * psi)
-#
-# Saída: data/cache/mediacao.rds
+# Estima quanto do efeito da digitalização passa pelo fechamento de agências.
 
 suppressPackageStartupMessages({
   library(dplyr)
@@ -14,8 +8,7 @@ suppressPackageStartupMessages({
 
 set.seed(20260426)
 
-# ---- 1. Carregar e preparar painel ----
-ind <- read.csv("data/processed/indicadores_financeiros_basedosdados.csv")
+ind <- read.csv("data/processed/indicadores_financeiros_consolidados.csv")
 
 pre_2013 <- ind |>
   filter(ano >= 2009, ano <= 2013, !is.na(n_agencias), n_agencias > 0)
@@ -68,7 +61,6 @@ cat(sprintf("Painel mediação: %d obs, %d municípios, anos %d-%d\n",
             length(unique(painel_med$cod_mun_ibge)),
             min(painel_med$ano), max(painel_med$ano)))
 
-# ---- 2. Equações (especificação principal: só ln_pib como controle) ----
 eq_M <- feols(ln_nag  ~ TrtE + ln_pib | cod_mun_ibge + ano,
               data = painel_med, cluster = ~ cod_mun_ibge)
 eq_Y <- feols(IRF_IRE ~ TrtE + ln_nag + ln_pib | cod_mun_ibge + ano,
@@ -76,7 +68,6 @@ eq_Y <- feols(IRF_IRE ~ TrtE + ln_nag + ln_pib | cod_mun_ibge + ano,
 eq_T <- feols(IRF_IRE ~ TrtE + ln_pib | cod_mun_ibge + ano,
               data = painel_med, cluster = ~ cod_mun_ibge)
 
-# ---- 2b. Equações com controles reais (robustez) ----
 ctrls <- "+ ln_pib + sh_agro + sh_ind + sh_serv + ln_vinc + sh_simples"
 painel_med_c <- painel_med |>
   filter(!is.na(sh_agro), !is.na(sh_ind), !is.na(sh_serv),
@@ -113,13 +104,11 @@ ADE   <- phi
 TOTAL <- ACME + ADE
 prop_med <- ACME / TOTAL
 
-# Sobel: SE assintótico do produto delta*psi (assume independência das amostras)
 se_acme_sobel <- sqrt(psi^2 * se_delta^2 + delta^2 * se_psi^2)
 z_sobel <- ACME / se_acme_sobel
 p_sobel <- 2 * pnorm(-abs(z_sobel))
 ic_sobel <- ACME + c(-1, 1) * 1.96 * se_acme_sobel
 
-# ---- 3. Bootstrap por município (cluster bootstrap) ----
 muns <- unique(painel_med$cod_mun_ibge)
 n_mun <- length(muns)
 B <- 500
@@ -127,7 +116,6 @@ boot_acme  <- numeric(B)
 boot_ade   <- numeric(B)
 boot_total <- numeric(B)
 
-# Pré-indexa para acelerar resampling
 idx_by_mun <- split(seq_len(nrow(painel_med)), painel_med$cod_mun_ibge)
 
 t0 <- Sys.time()
@@ -171,7 +159,6 @@ ic_ade   <- quantile(boot_ade,   c(0.025, 0.975), na.rm = TRUE)
 ic_total <- quantile(boot_total, c(0.025, 0.975), na.rm = TRUE)
 ic_prop  <- quantile(boot_acme / boot_total, c(0.025, 0.975), na.rm = TRUE)
 
-# ---- 4. Salvar resultados ----
 res <- list(
   n_obs     = nrow(painel_med),
   n_mun     = length(unique(painel_med$cod_mun_ibge)),

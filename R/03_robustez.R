@@ -1,13 +1,5 @@
 #!/usr/bin/env Rscript
-# 07_robustez.R
-# Robustez do DiD principal:
-#   (i)  Placebo com t* falso em 2014 (sub-amostra 2009-2018)
-#   (ii) Synthetic DiD (Arkhangelsky et al. 2021) sobre tratado vs controle
-#        binarizados (tercis extremos do escore de exposição)
-#   (iii) SLX-DiD com matrizes W alternativas (k=5 vizinhos mais próximos
-#         e distância inversa) sobre os mesmos desfechos da §3.5
-#
-# Saída: data/cache/robustez.rds
+# Testes de robustez do DiD principal.
 
 suppressPackageStartupMessages({
   library(dplyr)
@@ -22,8 +14,7 @@ suppressPackageStartupMessages({
 
 set.seed(20260427)
 
-# ---- 1. Painel e exposição ----
-ind <- read.csv("data/processed/indicadores_financeiros_basedosdados.csv")
+ind <- read.csv("data/processed/indicadores_financeiros_consolidados.csv")
 
 pre_2013 <- ind |>
   filter(ano >= 2009, ano <= 2013, !is.na(n_agencias), n_agencias > 0)
@@ -63,16 +54,13 @@ painel_ag <- painel |> filter(ano <= 2022)
 
 outcomes <- list(ln_nag = "ln_nag", IRC = "IRC", ICO = "ICO", IRF_IRE = "IRF_IRE")
 
-# =============================================================================
-# (i) PLACEBO — t* falso em 2014
-# =============================================================================
 cat("\n===== PLACEBO t*=2014 (amostra 2009-2018) =====\n")
 
 painel_placebo <- painel |>
   filter(ano >= 2009, ano <= 2018) |>
   mutate(Post_fake = as.integer(ano >= 2014))
 
-painel_placebo_ag <- painel_placebo |> filter(ano <= 2018)  # idêntico, sem corte 2022
+painel_placebo_ag <- painel_placebo |> filter(ano <= 2018)
 
 placebo_res <- list()
 for (nm in names(outcomes)) {
@@ -90,9 +78,6 @@ for (nm in names(outcomes)) {
               nm, placebo_res[[nm]]$est, placebo_res[[nm]]$se, placebo_res[[nm]]$n))
 }
 
-# =============================================================================
-# (ii) SYNTHETIC DiD — tratamento binário (tercil superior vs inferior de E_i)
-# =============================================================================
 cat("\n===== SYNTHETIC DiD =====\n")
 
 q <- quantile(cobertura$Exposicao, c(1/3, 2/3))
@@ -108,17 +93,12 @@ painel_sd <- painel_ag |>
   filter(!is.na(grupo_sd)) |>
   mutate(treat_post = as.integer(grupo_sd == "tratado" & ano >= 2020))
 
-# synthdid exige painel balanceado: município × ano sem buracos
-# Para cada outcome, montamos a matriz Y, filtramos munis com observações
-# completas em todos os anos da janela, e aplicamos synthdid_estimate.
-
 executar_sdid <- function(yvar, painel_in, t_pre = 2014:2019, t_pos = 2020:2022) {
   anos <- c(t_pre, t_pos)
   d <- painel_in |>
     filter(ano %in% anos, !is.na(.data[[yvar]]), is.finite(.data[[yvar]])) |>
     select(cod_mun_ibge, ano, all_of(yvar), grupo_sd, treat_post)
 
-  # Manter apenas munis com painel completo
   cont <- d |> count(cod_mun_ibge) |> filter(n == length(anos)) |> pull(cod_mun_ibge)
   d <- d |> filter(cod_mun_ibge %in% cont) |>
     arrange(grupo_sd, cod_mun_ibge, ano)
@@ -135,8 +115,6 @@ executar_sdid <- function(yvar, painel_in, t_pre = 2014:2019, t_pos = 2020:2022)
   Y_mat <- as.matrix(Y[, -1])
   W_mat <- as.matrix(W[, -1])
 
-  # synthdid::panel.matrices precisa do painel ordenado (controles primeiro,
-  # tratados ao final; anos na ordem cronológica). Reordenar:
   ord <- order(rowSums(W_mat) > 0, Y$cod_mun_ibge)
   Y_mat <- Y_mat[ord, ]
   W_mat <- W_mat[ord, ]
@@ -167,14 +145,11 @@ for (nm in names(outcomes)) {
   }
 }
 
-# =============================================================================
-# (iii) W ALTERNATIVOS — k=5 e distância inversa
-# =============================================================================
 cat("\n===== W ALTERNATIVOS =====\n")
 
 w_obj <- readRDS("data/cache/W_exposicao.rds")
 ilhas <- w_obj$ilhas
-exp_all <- w_obj$exp_all  # cod_mun_ibge, Exp, WExp (queen)
+exp_all <- w_obj$exp_all
 
 cat("  Carregando malha geobr (pode demorar)...\n")
 mun_sf <- read_municipality(year = 2020, simplified = TRUE, showProgress = FALSE)
@@ -183,7 +158,6 @@ mun_sf <- mun_sf |>
   mutate(code_muni = as.numeric(code_muni)) |>
   arrange(code_muni)
 
-# Garantir alinhamento com exp_all
 mun_sf <- mun_sf |> filter(code_muni %in% exp_all$cod_mun_ibge)
 exp_all <- exp_all |> filter(cod_mun_ibge %in% mun_sf$code_muni) |>
   arrange(cod_mun_ibge)
@@ -192,7 +166,6 @@ stopifnot(all(mun_sf$code_muni == exp_all$cod_mun_ibge))
 centroides <- suppressWarnings(st_centroid(mun_sf))
 coords <- st_coordinates(centroides)
 
-# Helper: converte listw em Matrix esparsa
 listw_to_sparse <- function(lw) {
   n  <- length(lw$neighbours)
   k  <- card(lw$neighbours)
@@ -204,13 +177,11 @@ listw_to_sparse <- function(lw) {
   sparseMatrix(i = i_, j = j_, x = x_, dims = c(n, n))
 }
 
-# k=5 vizinhos mais próximos
 cat("  Construindo W_k5...\n")
 nb_k5 <- knn2nb(knearneigh(coords, k = 5))
 lw_k5 <- nb2listw(nb_k5, style = "W", zero.policy = TRUE)
 W_k5  <- listw_to_sparse(lw_k5)
 
-# Distância inversa (até 200km, evita matriz densa)
 cat("  Construindo W_inv (corte 200km)...\n")
 nb_dist <- dnearneigh(coords, 0, 200000, longlat = TRUE)
 distancias <- nbdists(nb_dist, coords, longlat = TRUE)
@@ -227,7 +198,6 @@ if (length(sem_vizinhos) > 0) {
 lw_inv <- nb2listw(nb_dist, glist = inv_dist, style = "W", zero.policy = TRUE)
 W_inv  <- listw_to_sparse(lw_inv)
 
-# Construir vetor de exposição alinhado e calcular WExp para cada matriz
 E_vec <- exp_all$Exp
 WExp_k5  <- as.numeric(W_k5  %*% E_vec)
 WExp_inv <- as.numeric(W_inv %*% E_vec)
@@ -235,7 +205,6 @@ WExp_inv <- as.numeric(W_inv %*% E_vec)
 exp_alt <- exp_all |>
   mutate(WExp_k5 = WExp_k5, WExp_inv = WExp_inv)
 
-# Painel SLX-DiD para cada matriz
 painel_slx <- painel_ag |>
   inner_join(exp_alt |> select(cod_mun_ibge, WExp_k5, WExp_inv),
              by = "cod_mun_ibge") |>
@@ -271,7 +240,6 @@ for (nm in names(outcomes)) {
               slx_res[[nm]]$inv$direto, slx_res[[nm]]$inv$spillover))
 }
 
-# ---- 4. Salvar ----
 res <- list(
   placebo = placebo_res,
   sdid    = sdid_res,

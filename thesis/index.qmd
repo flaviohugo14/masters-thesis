@@ -816,7 +816,7 @@ library(tidyr)
 library(ggplot2)
 library(scales)
 
-ind <- read.csv("data/processed/indicadores_financeiros_basedosdados.csv")
+ind <- read.csv("data/processed/indicadores_financeiros_consolidados.csv")
 
 ind <- ind |>
   mutate(
@@ -1370,7 +1370,7 @@ A operacionalização da exposição envolve cinco escolhas explícitas. *Primei
 #| warning: false
 
 if (!exists("ind_full")) {
-  ind_full <- read.csv("data/processed/indicadores_financeiros_basedosdados.csv")
+  ind_full <- read.csv("data/processed/indicadores_financeiros_consolidados.csv")
 }
 
 pre_2013 <- ind_full |>

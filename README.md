@@ -120,7 +120,7 @@ Rscript R/05_mapas.R                   # → data/cache/mapas.rds (malhas IBGE)
 
 | Fonte | Cobertura | Uso |
 |---|---|---|
-| **ESTBAN** (Base dos Dados / BigQuery) | 2009–2023 | Estatística bancária por município |
+| **ESTBAN** (BCB) | 2009–2023 | Estatística bancária por município |
 | **IBGE** — PIB municipal | 2002–2023 | Deflator IPCA (base 2021) |
 | **FEBRABAN** — Pesquisa de tecnologia | 2009–2024 | Séries de digitalização (MB, IB, transações) |
 | **UNICAD/Bacen** | — | Classificação de porte das instituições |

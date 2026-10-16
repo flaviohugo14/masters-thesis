@@ -1,20 +1,4 @@
-# ==============================================================================
-# Construção dos Indicadores Financeiros — via Base dos Dados (BigQuery)
-# Dissertação: Digitalização do Sistema Financeiro Brasileiro
-# Autor: Flávio Hugo Pangracio Silva
-# ==============================================================================
-# Versão alternativa do construir_indicadores.R que utiliza as tabelas públicas
-# do Base dos Dados em vez da tabela customizada (estban_agencias_geolocalizadas).
-#
-# Tabelas utilizadas:
-#   - basedosdados.br_bcb_estban.municipio  → indicadores agregados por município
-#   - basedosdados.br_bcb_estban.agencia    → contagem de agências e ICB
-#   - PIB municipal: data/raw/ (planilhas IBGE 2002-2009 e 2010-2023)
-#
-# Período: dezembro de 2009 a dezembro de 2024
-# ==============================================================================
-
-# --- Pacotes ------------------------------------------------------------------
+# Monta o painel municipal de indicadores bancários, PIB e emprego formal.
 
 pacotes_necessarios <- c("bigrquery", "readxl", "dplyr", "tidyr", "janitor")
 pacotes_faltantes <- pacotes_necessarios[
@@ -30,12 +14,8 @@ library(dplyr)
 library(tidyr)
 library(janitor)
 
-# --- Configuração BigQuery ----------------------------------------------------
-
 project_id <- "cloud-learning-doing"
 bq_auth()
-
-# --- 1. Leitura dos dados de PIB municipal ------------------------------------
 
 cat(">>> Lendo dados de PIB municipal e VAB setorial...\n")
 
@@ -85,8 +65,6 @@ cat(
   "  Classificações territoriais:", nrow(classificacoes), "municípios\n"
 )
 
-# --- 2. ESTBAN — Tabela de municípios (Base dos Dados) ------------------------
-
 cat(">>> Consultando ESTBAN (tabela de municípios) no BigQuery...\n")
 
 sql_municipio <- "
@@ -133,8 +111,6 @@ estban_mun_long <- bq_project_query(project_id, sql_municipio) |>
 
 cat("   ESTBAN municípios:", nrow(estban_mun_long), "registros (long)\n")
 
-
-# Pivotar para formato wide (uma coluna por conta)
 estban_mun <- estban_mun_long |>
   pivot_wider(
     id_cols     = c(id_municipio, ano),
@@ -149,8 +125,6 @@ estban_mun <- estban_mun_long |>
   )
 
 cat("   ESTBAN municípios:", nrow(estban_mun), "registros (wide)\n")
-
-# --- 3. ESTBAN — Tabela de agências (contagem + ICB) -------------------------
 
 cat(">>> Consultando ESTBAN (tabela de agências) no BigQuery...\n")
 
@@ -173,15 +147,12 @@ agencias_raw <- bq_project_query(project_id, sql_agencias) |>
 
 cat("   ESTBAN agências:", nrow(agencias_raw), "registros (banco × município × ano)\n")
 
-# 3a. Contagem de agências por município-ano
 agencias_mun <- agencias_raw |>
   group_by(cod_mun_ibge = id_municipio, ano = as.integer(ano)) |>
   summarise(n_agencias = sum(n_agencias_banco), .groups = "drop")
 
 cat("   Agências:", nrow(agencias_mun), "registros município-ano\n")
 
-# 3b. ICB (Índice de Concentração Bancária) — HHI por instituição
-# ICB_j = Σ (credito_banco_ij / credito_total_j)²
 icb <- agencias_raw |>
   group_by(cod_mun_ibge = id_municipio, ano = as.integer(ano)) |>
   mutate(
@@ -191,8 +162,6 @@ icb <- agencias_raw |>
   summarise(ICB = sum(share^2), .groups = "drop") |>
   mutate(ICB = if_else(ICB == 0, NA_real_, ICB))
 
-# --- 4. PLP e PLB -------------------------------------------------------------
-
 cat(">>> Calculando PLP e PLB...\n")
 
 estban_mun <- estban_mun |>
@@ -200,8 +169,6 @@ estban_mun <- estban_mun |>
     PLP = if_else(DT > 0, depositos / DT, 0),
     PLB = if_else(op_cred > 0, depositos / op_cred, 0)
   )
-
-# --- 5. Índices Regionais (quociente locacional) ------------------------------
 
 cat(">>> Calculando índices regionais (IRC, IRE, IRF, IRD, IRL, IRR)...\n")
 
@@ -215,7 +182,6 @@ if (n_sem_pib > 0) {
   cat("   AVISO:", n_sem_pib, "registros sem PIB correspondente\n")
 }
 
-# Totais nacionais por ano
 totais_nacionais <- indicadores_mun |>
   group_by(ano) |>
   summarise(
@@ -242,8 +208,6 @@ indicadores_mun <- indicadores_mun |>
   ) |>
   select(-OPC_total, -E_total, -F_total, -DV_total, -L_total, -PC_total, -PIB_total, -pib_share)
 
-# --- 6. ICO (Índice de Concentração de Operações) -----------------------------
-
 cat(">>> Calculando ICO (HHI por tipo de operação de crédito)...\n")
 
 colunas_sub_credito <- c(
@@ -262,14 +226,11 @@ indicadores_mun <- indicadores_mun |>
   ) |>
   ungroup()
 
-# --- 7. Juntar ICB ------------------------------------------------------------
-
 cat(">>> Juntando ICB...\n")
 
 indicadores_mun <- indicadores_mun |>
   left_join(icb, by = c("cod_mun_ibge", "ano"))
 
-# --- 7b. RAIS — Mercado de trabalho formal (estabelecimentos) ----------------
 cat(">>> Consultando RAIS (estabelecimentos) no BigQuery...\n")
 cat("   ATENÇÃO: query pesada, pode levar vários minutos\n")
 
@@ -312,33 +273,25 @@ cat("   RAIS:", nrow(rais), "registros município-ano,",
 indicadores_mun <- indicadores_mun |>
   left_join(rais, by = c("cod_mun_ibge", "ano"))
 
-# --- 8. Resultado final -------------------------------------------------------
-
 cat(">>> Selecionando colunas finais...\n")
 
 resultado <- indicadores_mun |>
   select(
     cod_mun_ibge, ano,
-    # Bancário
     pib, n_agencias,
     depositos, DT, op_cred, emprestimos, fin, resultado, provisao_de_credito,
     PLP, PLB,
     IRC, IRE, IRF, IRD, IRL, IRR,
     ICO, ICB,
-    # Real (PIB municipal IBGE)
     vab_total, vab_agro, vab_ind, vab_serv, vab_apu, impostos,
-    # Mercado de trabalho formal (RAIS)
     vinculos_total, vinculos_clt,
     estabelecimentos_total, estab_ativos, estab_simples,
     vinculos_industria, vinculos_servicos, vinculos_agro, vinculos_publico
   ) |>
   arrange(cod_mun_ibge, ano)
 
-# --- 8b. Deflacionar PIB e VABs (IPCA, base = 2024) --------------------------
-
 cat(">>> Deflacionando PIB e VABs pelo IPCA (base = 2024)...\n")
 
-# IPCA acumulado no ano (% dez/dez), fonte: IBGE/SIDRA tabela 1737
 ipca_anual <- tibble::tribble(
   ~ano, ~ipca_pct,
   2009,  4.31,
@@ -359,7 +312,6 @@ ipca_anual <- tibble::tribble(
   2024,  4.83
 )
 
-# Índice acumulado (base 2024 = 1.00)
 ipca_anual <- ipca_anual |>
   mutate(
     fator       = cumprod(1 + ipca_pct / 100),
@@ -381,8 +333,6 @@ resultado <- resultado |>
   ) |>
   select(-indice_2024)
 
-# --- 8c. Composição setorial (shares) e taxa de formalização -----------------
-
 cat(">>> Calculando shares setoriais e taxa de formalização...\n")
 
 resultado <- resultado |>
@@ -391,22 +341,15 @@ resultado <- resultado |>
     share_ind   = if_else(vab_total > 0, vab_ind   / vab_total, NA_real_),
     share_serv  = if_else(vab_total > 0, vab_serv  / vab_total, NA_real_),
     share_apu   = if_else(vab_total > 0, vab_apu   / vab_total, NA_real_),
-    # Vínculos formais por mil habitantes do PIB (proxy de adensamento de
-    # mercado de trabalho); razão entre estabelecimentos optantes do SIMPLES
-    # e estabelecimentos ativos (proxy de fragmentação produtiva).
     estab_simples_share = if_else(estab_ativos > 0, estab_simples / estab_ativos, NA_real_)
   )
-
-# --- 8d. Junção com classificações territoriais ------------------------------
 
 resultado <- resultado |>
   left_join(classificacoes, by = "cod_mun_ibge")
 
-# --- 9. Exportar --------------------------------------------------------------
-
 dir.create("data/processed", showWarnings = FALSE, recursive = TRUE)
 
-output_path <- "data/processed/indicadores_financeiros_basedosdados.csv"
+output_path <- "data/processed/indicadores_financeiros_consolidados.csv"
 write.csv(resultado, output_path, row.names = FALSE)
 
 cat("\n=== Concluído! ===\n")
@@ -414,8 +357,6 @@ cat("Arquivo salvo em:", output_path, "\n")
 cat("Dimensões:", nrow(resultado), "linhas x", ncol(resultado), "colunas\n")
 cat("Anos:", paste(sort(unique(resultado$ano)), collapse = ", "), "\n")
 cat("Municípios:", n_distinct(resultado$cod_mun_ibge), "\n")
-
-# --- Resumo estatístico dos indicadores ---------------------------------------
 
 cat("\n--- Resumo dos indicadores bancários ---\n")
 resultado |>
