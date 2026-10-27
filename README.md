@@ -112,6 +112,7 @@ Rscript R/02_mediacao.R                # → data/cache/mediacao.rds
 Rscript R/03_robustez.R                # → data/cache/robustez.rds
 Rscript R/04_quantilica.R              # → data/cache/quantilica.rds
 Rscript R/05_mapas.R                   # → data/cache/mapas.rds (malhas IBGE)
+Rscript R/06_testes_espaciais.R        # → data/cache/testes_espaciais.rds
 ```
 
 ---
